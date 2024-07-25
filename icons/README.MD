@@ -28,7 +28,7 @@ for Print Work or media it should be like this
 
 This work © 2024 by Subham Mahesh is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-Please read [LICENSE](LICENSE) for more information
+Please read [LICENSE](LICENSE) for more information about attribution and license 
 
 
 
