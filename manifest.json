@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "All Tabs closure",
+  "author": "Subham Mahesh",
+  "version": "1.0",
+  "description": "Close all active tabs in your browser with one click.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "browsingData"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Close All Tabs",
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "option/options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
+

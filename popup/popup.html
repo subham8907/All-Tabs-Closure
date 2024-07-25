@@ -1,0 +1,126 @@
+<!--
+MIT License
+
+Copyright (c) 2024 Subham Mahesh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tabs Closure</title>
+    <style>
+        :root {
+            --gradient-start: #4F46E5;
+            --gradient-end: #1D4ED8;
+            --background-start: #F3F4F6;
+            --background-end: #E5E7EB;
+            --text-color: #1F2937;
+            --text-secondary: #606060;
+            --button-text: #ffffff;
+            --o:#4F46E5;
+                --f:#1D4ED8;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --gradient-start: #6366F1;
+                --gradient-end: #818CF8;
+                --background-start: #111827;
+                --background-end: #1F2937;
+                --text-color: #F9FAFB;
+                --text-secondary: #b0b0b0;
+                --o:#4F46E5;
+                --f:#1D4ED8;
+            }
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, var(--background-start) 0%, var(--background-end) 100%);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 0;
+            font-weight: 600;
+            font-size: 24px;
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+        p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        button {
+            width: 200px;
+            padding: 12px;
+            background: linear-gradient(90deg, var(--o), var(--f));
+            color: var(--button-text);
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        button:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(79, 70, 229, 0.3);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);
+        }
+        .icon {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../icons/icon128.png" alt="Close Tabs Icon" class="icon">
+        
+        <h2>All Tabs Closure</h2>
+        <p><strong>Ready for a fresh start? Click below to close all your open tabs instantly.</strong></p>
+        <p><strong>Please be cautious! Clicking below will close all your active opened tabs instantly.</strong></p>
+        <button id="closeAllTabs">Close All Tabs</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
