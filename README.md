@@ -1,6 +1,6 @@
 # All Tabs Closure Chromium Extension
 
-![All Tabs Closure Icon] [(https://github.com/subham8907/All-Tabs-Closure/blob/main/icons/icontrans128_dark.png])
+![All Tabs Closure Icon][(https://github.com/subham8907/All-Tabs-Closure/blob/main/icons/icontrans128_dark.png]
 
 ## Overview
 
