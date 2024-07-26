@@ -45,7 +45,9 @@ If you use [icontrans128_light.png](icontrans128_light.png) from this directory 
 for print and media it may look like this
 
 This work © 2024 by Subham Mahesh is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
 please note all any updated icon/png under this directory is under Creative Commons Attribution 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
 Please read [LICENSE](LICENSE) for more information about attribution and license 
 
 
