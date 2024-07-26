@@ -109,12 +109,33 @@ SOFTWARE.
             width: 60px;
             height: 60px;
             margin-bottom: 20px;
+            margin: 0 auto 2rem;
+            display: block;
+        }
+
+        .icon-light {
+            display: block;
+        }
+
+        .icon-dark {
+            display: none;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .icon-light {
+                display: none;
+            }
+
+            .icon-dark {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="../icons/icon128.png" alt="Close Tabs Icon" class="icon">
+        <img src="../icons/icon128.png" alt="Close Tabs Icon (Light Mode)" class="icon icon-light">
+        <img src="../icons/icontrans128_dark.png" alt="Close Tabs Icon (Dark Mode)" class="icon icon-dark">
         
         <h2>All Tabs Closure</h2>
         <p><strong>Ready for a fresh start? Click below to close all your open tabs instantly.</strong></p>
