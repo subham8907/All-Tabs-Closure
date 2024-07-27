@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.runtime.sendMessage({ action: "closeTabs" }, function(response) {
             if (response && response.status === "Closing tabs initiated") {
                 window.close();
-            } else {
-                console.error("Failed to initiate tab closure.");
             }
         });
     });
