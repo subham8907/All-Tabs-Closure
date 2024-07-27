@@ -32,16 +32,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     const saveExecuteExitButton = document.getElementById('saveExecuteExit');
 
     // Load saved options
-    const items = await chrome.storage.local.get(['actionType']);
-    document.querySelector(`input[name="actionType"][value="${items.actionType || 'newtab'}"]`).checked = true;
+    const { actionType = 'newtab' } = await chrome.storage.local.get('actionType');
+    document.querySelector(`input[name="actionType"][value="${actionType}"]`).checked = true;
 
     async function saveOptions() {
         const actionType = document.querySelector('input[name="actionType"]:checked').value;
-        await chrome.storage.local.set({ actionType: actionType });
-        status.textContent = 'Settings saved.';
-        setTimeout(() => {
-            status.textContent = '';
-        }, 750);
+        await chrome.storage.local.set({ actionType });
+        updateStatus('Settings saved.');
     }
 
     async function closeOptionsPage() {
@@ -59,23 +56,21 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     async function executeTabs(actionType) {
         return new Promise((resolve, reject) => {
-            chrome.runtime.sendMessage({
-                action: "closeTabs",
-                actionType: actionType
-            }, function(response) {
+            chrome.runtime.sendMessage({ action: "closeTabs", actionType }, function(response) {
                 if (response && response.status === "Closing tabs initiated") {
-                    status.textContent = 'Executing tab closure...';
-                    setTimeout(() => {
-                        status.textContent = '';
-                        resolve();
-                    }, 750);
+                    updateStatus('Executing tab closure...');
+                    setTimeout(resolve, 750);
                 } else {
-                    status.textContent = 'Failed to initiate tab closure.';
-                    console.error("Failed to initiate tab closure.");
+                    updateStatus('Failed to initiate tab closure.');
                     reject(new Error("Failed to initiate tab closure"));
                 }
             });
         });
+    }
+
+    function updateStatus(message) {
+        status.textContent = message;
+        setTimeout(() => { status.textContent = ''; }, 750);
     }
 
     // Handle form submission
@@ -85,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     // Save button click event
-    saveButton.addEventListener('click', function(e) {
+    saveButton.addEventListener('click', (e) => {
         e.preventDefault();
         form.dispatchEvent(new Event('submit'));
     });
@@ -100,7 +95,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Execute with saving button click event
     executeButton.addEventListener('click', async function() {
         const actionType = document.querySelector('input[name="actionType"]:checked').value;
-        await chrome.storage.local.set({ actionType: actionType });
+        await chrome.storage.local.set({ actionType });
         await executeTabs(actionType);
     });
 
@@ -111,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             await executeTabs(actionType);
             await closeOptionsPage();
         } catch (error) {
-            console.error("Error during save, execute, and exit:", error);
+            updateStatus(`Error: ${error.message}`);
         }
     });
 });
