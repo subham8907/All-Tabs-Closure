@@ -123,8 +123,8 @@ const closeAllTabs = async function(action) {
                 console.log('Invalid action specified');
                 break;
         }
-    } catch (error) {
-        console.error('An error occurred:', error);
+    } catch (none) {
+        ;
     }
 };
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
