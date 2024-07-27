@@ -39,7 +39,6 @@ const closeAllTabs = async function(action) {
                 const tabIds = tabs.filter(tab => !tab.pinned).map(tab => tab.id);
                 if (tabIds.length > 0) {
                     await chrome.tabs.remove(tabIds);
-                    console.log('All unpinned tabs closed successfully.');
                 }
                 break;
             
@@ -102,27 +101,21 @@ const closeAllTabs = async function(action) {
                     "fileSystems": true,
                 });
                 break;
-            
-            default:
-                console.error(`Unknown action: ${action}`);
+            }
+        } catch (none) {
+            ;
         }
-    } catch (error) {
-        console.error('Error in closeAllTabs:', error);
-    }
-};
+    };
+    
 
-chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "closeTabs") {
         chrome.storage.local.get(['actionType']).then(items => {
             const actionType = items.actionType || "newtab";
             closeAllTabs(actionType).then(() => {
                 sendResponse({ status: "Tabs closing operation completed" });
-            }).catch(error => {
-                sendResponse({ status: "Error", error: error.message });
             });
         });
         return true; 
     }
 });
-
-console.log('Service worker script loaded');
