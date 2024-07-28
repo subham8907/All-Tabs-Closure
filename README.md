@@ -47,7 +47,6 @@ You can customize the default behavior of the extension:
 
 This extension requires the following permissions:
 
-- `tabs`: To manage and close browser tabs
 - `storage`: To save user preferences
 - `browsingData`: To clear browsing history (when selected)
 
