@@ -4,6 +4,8 @@
 
  <a href="https://chromewebstore.google.com/detail/all-tabs-closure/bpiekeniajgabgndghkaagjehjipmcgi">
     <img height="58" src="https://i.imgur.com/K9Yh8G9.png" alt="Chrome Web Store"></a>
+
+    
 ## Overview
 
 All Tabs Closure is a powerful Chrome extension that allows you to efficiently manage your browser tabs with just one click. Developed by Subham Mahesh, this extension provides various options for closing tabs, helping you keep your browsing sessions organized and clutter-free.
