@@ -5,7 +5,6 @@
   "version": "1.0",
   "description": "Close all active tabs in your browser with one click.",
   "permissions": [
-    "tabs",
     "storage",
     "browsingData"
   ],
