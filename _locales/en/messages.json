@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "All Tabs Closure",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "Close all active tabs in your browser with one click.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "All Tabs Closure",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "Ready for a fresh start? Click below to close all your open tabs instantly.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "Please be cautious! Clicking below will close all your active opened tabs instantly.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "Close All Tabs",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "All Tabs Closure Settings",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "Caution: These actions will affect extension behavior.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "Open new tab after closing except pinned",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "Close all tabs (including browser)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Close all tabs (including pinned) without closing browser",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Close all tabs except current and pinned tabs",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Close all tabs except current tab",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Close all tabs in other windows",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Close all tabs except current, pinned, group tabs",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Close all tabs and clear search History",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "Save and Exit",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "Execute and Save",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Save, Execute, Exit",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "Settings saved.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "Executing tab closure...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "Failed to initiate tab closure.",
+    "description": "Message shown when tab closure fails"
+  }
+}

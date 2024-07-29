@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "Fechamento de Todas as Abas",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "Feche todas as abas ativas no seu navegador com um clique.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Fechamento de Todas as Abas",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "Pronto para um novo começo? Clique abaixo para fechar instantaneamente todas as suas abas abertas.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "Por favor, tenha cuidado! Clicar abaixo fechará instantaneamente todas as suas abas ativas abertas.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "Fechar Todas as Abas",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "Configurações do Fechamento de Todas as Abas",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "Atenção: Estas ações afetarão o comportamento da extensão.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "Abrir nova aba após fechar, exceto as fixadas",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "Fechar todas as abas (incluindo o navegador)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Fechar todas as abas (incluindo as fixadas) sem fechar o navegador",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Fechar todas as abas exceto a atual e as fixadas",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Fechar todas as abas exceto a atual",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Fechar todas as abas em outras janelas",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Fechar todas as abas exceto a atual, as fixadas e os grupos",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Fechar todas as abas e limpar o histórico de pesquisa",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "Salvar",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "Salvar e Sair",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "Executar e Salvar",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Salvar, Executar, Sair",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "Configurações salvas.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "Executando fechamento das abas...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "Falha ao iniciar o fechamento das abas.",
+    "description": "Message shown when tab closure fails"
+  }
+}

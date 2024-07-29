@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "Tüm Sekmeleri Kapat",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "Tarayıcınızdaki tüm aktif sekmeleri tek tıklamayla kapatın.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Tüm Sekmeleri Kapat",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "Yeni bir başlangıç için hazır mısınız? Açık olan tüm sekmeleri anında kapatmak için aşağıya tıklayın.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "Lütfen dikkatli olun! Aşağıya tıklamak, açık olan tüm aktif sekmeleri anında kapatacaktır.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "Tüm Sekmeleri Kapat",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "Tüm Sekmeleri Kapat Ayarları",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "Dikkat: Bu eylemler uzantının davranışını etkileyecektir.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "Sabitlenmiş olanlar hariç kapattıktan sonra yeni sekme aç",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "Tüm sekmeleri kapat (tarayıcı dahil)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Tarayıcıyı kapatmadan tüm sekmeleri kapat (sabitlenmiş olanlar dahil)",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Mevcut ve sabitlenmiş sekmeler hariç tüm sekmeleri kapat",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Mevcut sekme hariç tüm sekmeleri kapat",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Diğer pencerelerdeki tüm sekmeleri kapat",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Mevcut, sabitlenmiş ve grup sekmeleri hariç tüm sekmeleri kapat",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Tüm sekmeleri kapat ve arama geçmişini temizle",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "Kaydet",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "Kaydet ve Çık",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "Uygula ve Kaydet",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Kaydet, Uygula ve Çık",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "Ayarlar kaydedildi.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "Sekmeler kapatılıyor...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "Sekme kapatma işlemi başlatılamadı.",
+    "description": "Message shown when tab closure fails"
+  }
+}

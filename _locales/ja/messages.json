@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "全タブ一括閉じる",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "ブラウザの全てのアクティブタブをワンクリックで閉じます。",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "全タブ一括閉じる",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "新たに始める準備はできましたか？下のボタンをクリックすると、開いているすべてのタブを即座に閉じます。",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "注意！下のボタンをクリックすると、現在開いているすべてのアクティブタブが即座に閉じられます。",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "全タブを閉じる",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "全タブ一括閉じる設定",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "注意：これらの操作は拡張機能の動作に影響します。",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "固定タブを除き、閉じた後に新しいタブを開く",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "全タブを閉じる（ブラウザも含む）",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "ブラウザを閉じずに全タブを閉じる（固定タブも含む）",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "現在のタブと固定タブを除く全タブを閉じる",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "現在のタブを除く全タブを閉じる",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "他のウィンドウの全タブを閉じる",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "現在のタブ、固定タブ、グループタブを除く全タブを閉じる",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "全タブを閉じて検索履歴をクリアする",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "保存して終了",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "実行して保存",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "保存、実行して終了",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "設定が保存されました。",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "タブを閉じています...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "タブの閉じる処理を開始できませんでした。",
+    "description": "Message shown when tab closure fails"
+  }
+}

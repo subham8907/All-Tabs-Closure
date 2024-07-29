@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "إغلاق جميع علامات التبويب",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "أغلق جميع علامات التبويب النشطة في متصفحك بنقرة واحدة.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "إغلاق جميع علامات التبويب",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "هل أنت مستعد لبداية جديدة؟ انقر أدناه لإغلاق جميع علامات التبويب المفتوحة فورًا.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "يرجى الحذر! النقر أدناه سيؤدي إلى إغلاق جميع علامات التبويب النشطة المفتوحة فورًا.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "إغلاق جميع علامات التبويب",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "إعدادات إغلاق جميع علامات التبويب",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "تنبيه: ستؤثر هذه الإجراءات على سلوك الإضافة.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "فتح علامة تبويب جديدة بعد الإغلاق باستثناء المثبتة",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "إغلاق جميع علامات التبويب (بما في ذلك المتصفح)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "إغلاق جميع علامات التبويب (بما في ذلك المثبتة) دون إغلاق المتصفح",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "إغلاق جميع علامات التبويب باستثناء الحالية والمثبتة",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "إغلاق جميع علامات التبويب باستثناء الحالية",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "إغلاق جميع علامات التبويب في النوافذ الأخرى",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "إغلاق جميع علامات التبويب باستثناء الحالية والمثبتة والمجموعات",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "إغلاق جميع علامات التبويب ومسح سجل البحث",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "حفظ",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "حفظ وخروج",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "تنفيذ وحفظ",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "حفظ وتنفيذ وخروج",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "تم حفظ الإعدادات.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "جارٍ إغلاق علامات التبويب...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "فشل في بدء إغلاق علامات التبويب.",
+    "description": "Message shown when tab closure fails"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "All Tabs closure",
+  "name": "__MSG_extName__",
   "author": "Subham Mahesh",
   "version": "1.0",
-  "description": "Close all active tabs in your browser with one click.",
+  "description": "__MSG_extDescription__",
   "permissions": [
     "storage",
     "browsingData"
@@ -11,6 +11,7 @@
   "background": {
     "service_worker": "service_worker.js"
   },
+  "default_locale": "en",
   "action": {
     "default_icon": {
       "16": "icons/icon16.png",

@@ -209,49 +209,25 @@ SOFTWARE.
         <img src="../icons/icontrans128_light.png" alt="Close Tabs Icon (Light Mode)" class="icon icon-light">
         <img src="../icons/icontrans128_dark.png" alt="Close Tabs Icon (Dark Mode)" class="icon icon-dark">
 
-        <h2>All Tabs Closure Settings</h2>
-        <p class="warning">Caution: These actions will affect extension behavior.</p>
+        <h2><span data-i18n="optionsTitle"></span></h2>
+        <p class="warning"><span data-i18n="optionsCaution"></p>
         <form id="optionsForm">
             <div class="radio-group">
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="newtab" checked>
-                    Open new tab after closing except pinned
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="close">
-                    Close all tabs (including browser)
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="closeAllAndNewTab">
-                    Close all tabs (including pinned) without closing browser
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="closeAllExceptCurrentandpinned">
-                    Close all tabs except current and pinned tabs
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="closeAllExceptCurrent">
-                    Close all tabs except current tab
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="closeAllOtherWindows">
-                    Close all tabs in other windows
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="exceptPinnedAndGrouped">
-                    Close all tabs except current, pinned, group tabs
-                </label>
-                <label class="radio-option">
-                    <input type="radio" name="actionType" value="closeAndClearHistory">
-                    Close all tabs and clear search History
-                </label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="newtab" checked> <span data-i18n="optionNewTab"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="close"checked> <span data-i18n="optionCloseAll"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="closeAllAndNewTab"> <span data-i18n="optionCloseAllExceptBrowser"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="closeAllExceptCurrentandpinned"> <span data-i18n="optionCloseExceptCurrentPinned"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="closeAllExceptCurrent"> <span data-i18n="optionCloseExceptCurrent"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="closeAllOtherWindows"> <span data-i18n="optionCloseOtherWindows"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="exceptPinnedAndGrouped"> <span data-i18n="optionCloseExceptCurrentPinnedGroup"></span></label>
+                <label class="radio-option"> <input type="radio" name="actionType" value="closeAndClearHistory"> <span data-i18n="optionCloseAllClearHistory"></span></label>
             </div>
             
             <div class="button-container">
-                <button type="button" id="saveButton">Save</button>
-                <button type="button" id="saveExitButton">Save and Exit</button>
-                <button type="button" id="executeButton">Execute and Save</button>
-                <button type="button" id="saveExecuteExit">Save, Execute, Exit</button>
+                <button id="saveButton" data-i18n="saveButton"></button>
+                <button id="saveExitButton" data-i18n="saveExitButton"></button>
+                <button id="executeButton" data-i18n="executeButton"></button>
+                <button id="saveExecuteExit" data-i18n="saveExecuteExitButton"></button>
             </div>
         </form>
         <p id="status"></p>

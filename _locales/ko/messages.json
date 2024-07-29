@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "모든 탭 닫기",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "브라우저의 모든 활성 탭을 한 번의 클릭으로 닫습니다.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "모든 탭 닫기",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "새로 시작할 준비가 되셨나요? 아래 버튼을 클릭하여 열린 모든 탭을 즉시 닫을 수 있습니다.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "주의하세요! 아래 버튼을 클릭하면 현재 열려 있는 모든 활성 탭이 즉시 닫힙니다.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "모든 탭 닫기",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "모든 탭 닫기 설정",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "주의: 이 작업들은 확장 프로그램의 동작에 영향을 미칩니다.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "고정된 탭을 제외하고 닫은 후 새 탭 열기",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "모든 탭 닫기 (브라우저 포함)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "브라우저를 닫지 않고 모든 탭 닫기 (고정된 탭 포함)",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "현재 탭과 고정된 탭을 제외한 모든 탭 닫기",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "현재 탭을 제외한 모든 탭 닫기",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "다른 창의 모든 탭 닫기",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "현재 탭, 고정된 탭, 그룹 탭을 제외한 모든 탭 닫기",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "모든 탭을 닫고 검색 기록 지우기",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "저장",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "저장 후 종료",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "실행 후 저장",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "저장, 실행 후 종료",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "설정이 저장되었습니다.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "탭 닫기 실행 중...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "탭 닫기를 시작할 수 없습니다.",
+    "description": "Message shown when tab closure fails"
+  }
+}

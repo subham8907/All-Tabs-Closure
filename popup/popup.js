@@ -25,13 +25,18 @@ SOFTWARE.
 
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Localize UI elements
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        element.textContent = chrome.i18n.getMessage(element.getAttribute('data-i18n'));
+    });
+
     var closeButton = document.getElementById('closeAllTabs');
     closeButton.addEventListener('click', function() {
         chrome.runtime.sendMessage({ action: "closeTabs" }, function(response) {
             if (response && response.status === "Closing tabs initiated") {
                 window.close();
             } else {
-                console.error("Failed to initiate tab closure.");
+                console.error(chrome.i18n.getMessage("tabClosureFailure"));
             }
         });
     });

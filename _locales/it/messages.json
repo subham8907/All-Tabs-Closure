@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "Chiusura di Tutte le Schede",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "Chiudi tutte le schede attive nel tuo browser con un solo clic.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Chiusura di Tutte le Schede",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "Pronto per un nuovo inizio? Clicca qui sotto per chiudere istantaneamente tutte le tue schede aperte.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "Attenzione! Cliccando qui sotto chiuderai istantaneamente tutte le schede attive aperte.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "Chiudi Tutte le Schede",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "Impostazioni di Chiusura di Tutte le Schede",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "Attenzione: Queste azioni influenzeranno il comportamento dell'estensione.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "Apri una nuova scheda dopo la chiusura, tranne quelle fissate",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "Chiudi tutte le schede (incluso il browser)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Chiudi tutte le schede (incluse quelle fissate) senza chiudere il browser",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Chiudi tutte le schede tranne quella corrente e quelle fissate",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Chiudi tutte le schede tranne quella corrente",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Chiudi tutte le schede in altre finestre",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Chiudi tutte le schede tranne quella corrente, quelle fissate e i gruppi",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Chiudi tutte le schede e cancella la cronologia di ricerca",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "Salva",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "Salva ed Esci",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "Esegui e Salva",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Salva, Esegui, Esci",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "Impostazioni salvate.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "Esecuzione della chiusura delle schede in corso...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "Impossibile avviare la chiusura delle schede.",
+    "description": "Message shown when tab closure fails"
+  }
+}

@@ -28,6 +28,7 @@ SOFTWARE.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Tabs Closure</title>
+    <script src="popup.js"></script>
     <style>
         :root {
             --gradient-start: #4F46E5;
@@ -136,12 +137,14 @@ SOFTWARE.
     <div class="container">
         <img src="../icons/icontrans128_light.png" alt="Close Tabs Icon (Light Mode)" class="icon icon-light">
         <img src="../icons/icontrans128_dark.png" alt="Close Tabs Icon (Dark Mode)" class="icon icon-dark">
-        
-        <h2>All Tabs Closure</h2>
-        <p><strong>Ready for a fresh start? Click below to close all your open tabs instantly.</strong></p>
-        <p><strong>Please be cautious! Clicking below will close all your active opened tabs instantly.</strong></p>
-        <button id="closeAllTabs">Close All Tabs</button>
+
+        <h2><span data-i18n="popupTitle"></span></h2>
+
+        <p><span data-i18n="popupDescription"></span></p>
+
+        <p><strong><span data-i18n="popupWarning"></span></strong></p>
+
+        <button id="closeAllTabs"><span data-i18n="closeAllTabsButton"></span></button>
     </div>
-    <script src="popup.js"></script>
 </body>
 </html>

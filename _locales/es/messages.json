@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "Cierre de Todas las Pestañas",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "Cierre todas las pestañas activas en su navegador con un solo clic.",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Cierre de Todas las Pestañas",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "¿Listo para un nuevo comienzo? Haga clic abajo para cerrar todas sus pestañas abiertas instantáneamente.",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "¡Por favor, tenga cuidado! Al hacer clic abajo, se cerrarán instantáneamente todas sus pestañas abiertas activas.",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "Cerrar Todas las Pestañas",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "Configuración de Cierre de Todas las Pestañas",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "Precaución: Estas acciones afectarán el comportamiento de la extensión.",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "Abrir nueva pestaña después de cerrar, excepto las fijadas",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "Cerrar todas las pestañas (incluyendo el navegador)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Cerrar todas las pestañas (incluyendo las fijadas) sin cerrar el navegador",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Cerrar todas las pestañas excepto la actual y las fijadas",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Cerrar todas las pestañas excepto la actual",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Cerrar todas las pestañas en otras ventanas",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Cerrar todas las pestañas excepto la actual, las fijadas y las de grupo",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Cerrar todas las pestañas y borrar el historial de búsqueda",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "Guardar",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "Guardar y Salir",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "Ejecutar y Guardar",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Guardar, Ejecutar, Salir",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "Configuración guardada.",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "Ejecutando cierre de pestañas...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "No se pudo iniciar el cierre de pestañas.",
+    "description": "Message shown when tab closure fails"
+  }
+}

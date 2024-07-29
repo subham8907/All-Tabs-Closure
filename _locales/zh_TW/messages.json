@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "一鍵關閉所有分頁",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "一鍵關閉瀏覽器中所有活動分頁。",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "一鍵關閉所有分頁",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "準備重新開始？點擊下方按鈕立即關閉所有已開啟的分頁。",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "請注意！點擊下方按鈕將立即關閉所有當前開啟的活動分頁。",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "關閉所有分頁",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "一鍵關閉所有分頁設定",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "注意：這些操作將影響擴充功能的行為。",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "關閉後開啟新分頁，固定分頁除外",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "關閉所有分頁（包括瀏覽器）",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "關閉所有分頁（包括固定分頁），但不關閉瀏覽器",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "關閉所有分頁，但保留當前頁面和固定分頁",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "關閉所有分頁，但保留當前頁面",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "關閉其他視窗中的所有分頁",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "關閉所有分頁，但保留當前頁面、固定分頁和群組分頁",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "關閉所有分頁並清除搜尋記錄",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "儲存",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "儲存並退出",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "執行並儲存",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "儲存、執行並退出",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "設定已儲存。",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "正在關閉分頁...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "無法開始關閉分頁。",
+    "description": "Message shown when tab closure fails"
+  }
+}

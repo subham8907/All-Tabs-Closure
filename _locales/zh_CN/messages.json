@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "一键关闭所有标签页",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "一键关闭浏览器中所有活动标签页。",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "一键关闭所有标签页",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "准备重新开始？点击下方按钮立即关闭所有打开的标签页。",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "请注意！点击下方按钮将立即关闭所有当前打开的活动标签页。",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "关闭所有标签页",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "一键关闭所有标签页设置",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "注意：这些操作将影响扩展程序的行为。",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "关闭后打开新标签页，固定标签页除外",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "关闭所有标签页（包括浏览器）",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "关闭所有标签页（包括固定标签页），但不关闭浏览器",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "关闭所有标签页，但保留当前页面和固定标签页",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "关闭所有标签页，但保留当前页面",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "关闭其他窗口中的所有标签页",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "关闭所有标签页，但保留当前页面、固定标签页和分组标签页",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "关闭所有标签页并清除搜索历史",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "保存并退出",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "执行并保存",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "保存、执行并退出",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "设置已保存。",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "正在关闭标签页...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "无法开始关闭标签页。",
+    "description": "Message shown when tab closure fails"
+  }
+}

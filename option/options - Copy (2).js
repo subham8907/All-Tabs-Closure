@@ -21,6 +21,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+
+
 document.addEventListener('DOMContentLoaded', async function() {
     const form = document.getElementById('optionsForm');
     const status = document.getElementById('status');
@@ -29,19 +31,18 @@ document.addEventListener('DOMContentLoaded', async function() {
     const executeButton = document.getElementById('executeButton');
     const saveExecuteExitButton = document.getElementById('saveExecuteExit');
 
-    // Translate all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
         el.textContent = chrome.i18n.getMessage(el.getAttribute('data-i18n'));
     });
 
-    // Load saved options
+    
     const items = await chrome.storage.local.get(['actionType']);
     document.querySelector(`input[name="actionType"][value="${items.actionType || 'newtab'}"]`).checked = true;
 
     async function saveOptions() {
         const actionType = document.querySelector('input[name="actionType"]:checked').value;
         await chrome.storage.local.set({ actionType: actionType });
-        status.textContent = chrome.i18n.getMessage('settingsSaved');
+        chrome.i18n.getMessage('settingsSaved');
         setTimeout(() => {
             status.textContent = '';
         }, 750);
@@ -50,9 +51,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     async function closeOptionsPage() {
         const tabs = await chrome.tabs.query({});
         if (tabs.length === 1) {
+            // If there's only one tab, close it and open a new tab
             await chrome.tabs.create({ url: 'chrome://newtab' });
             await chrome.tabs.remove(tabs[0].id);
         } else {
+            // If there are multiple tabs, just close the current tab
             const currentTab = await chrome.tabs.getCurrent();
             await chrome.tabs.remove(currentTab.id);
         }
@@ -65,7 +68,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 actionType: actionType
             }, function(response) {
                 if (response && response.status === "Closing tabs initiated") {
-                    status.textContent = chrome.i18n.getMessage('executingTabClosure');
+                    status.textContent = 'Executing tab closure...';
                     setTimeout(() => {
                         status.textContent = '';
                         resolve();
@@ -79,23 +82,26 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
     }
 
-    // Event listeners remain the same
+    // Handle form submission
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         await saveOptions();
     });
 
+    // Save button click event
     saveButton.addEventListener('click', function(e) {
         e.preventDefault();
         form.dispatchEvent(new Event('submit'));
     });
 
+    // Save and Exit button click event
     saveExitButton.addEventListener('click', async function(e) {
         e.preventDefault();
         await saveOptions();
-        setTimeout(closeOptionsPage, 750);
+        setTimeout(closeOptionsPage, 750); // Wait for save confirmation before closing
     });
 
+    // Execute with saving button click event
     executeButton.addEventListener('click', async function() {
         const actionType = document.querySelector('input[name="actionType"]:checked').value;
         await chrome.storage.local.set({ actionType: actionType });

@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "সব ট্যাব বন্ধ করুন",
+    "description": "The name of the extension"
+  },
+  "extDescription": {
+    "message": "আপনার ব্রাউজারের সব সক্রিয় ট্যাব এক ক্লিকে বন্ধ করুন।",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "সব ট্যাব বন্ধ করুন",
+    "description": "The title of the popup"
+  },
+  "popupDescription": {
+    "message": "নতুন করে শুরু করতে প্রস্তুত? নীচে ক্লিক করে আপনার সব খোলা ট্যাব তৎক্ষণাৎ বন্ধ করুন।",
+    "description": "The description in the popup"
+  },
+  "popupWarning": {
+    "message": "অনুগ্রহ করে সতর্ক থাকুন! নীচে ক্লিক করলে আপনার সব সক্রিয় খোলা ট্যাব তৎক্ষণাৎ বন্ধ হয়ে যাবে।",
+    "description": "Warning message in the popup"
+  },
+  "closeAllTabsButton": {
+    "message": "সব ট্যাব বন্ধ করুন",
+    "description": "Text for the close all tabs button"
+  },
+  "optionsTitle": {
+    "message": "সব ট্যাব বন্ধ করার সেটিংস",
+    "description": "The title of the options page"
+  },
+  "optionsCaution": {
+    "message": "সতর্কতা: এই ক্রিয়াগুলি এক্সটেনশনের আচরণকে প্রভাবিত করবে।",
+    "description": "Caution message in the options page"
+  },
+  "optionNewTab": {
+    "message": "পিন করা ট্যাব ছাড়া বন্ধ করার পর নতুন ট্যাব খুলুন",
+    "description": "Option to open new tab after closing"
+  },
+  "optionCloseAll": {
+    "message": "সব ট্যাব বন্ধ করুন (ব্রাউজার সহ)",
+    "description": "Option to close all tabs including browser"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "ব্রাউজার না বন্ধ করে সব ট্যাব বন্ধ করুন (পিন করা ট্যাব সহ)",
+    "description": "Option to close all tabs except browser"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "বর্তমান ও পিন করা ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
+    "description": "Option to close all tabs except current and pinned"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "বর্তমান ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
+    "description": "Option to close all tabs except current"
+  },
+  "optionCloseOtherWindows": {
+    "message": "অন্য উইন্ডোগুলির সব ট্যাব বন্ধ করুন",
+    "description": "Option to close all tabs in other windows"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "বর্তমান, পিন করা, ও গ্রুপ ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
+    "description": "Option to close all tabs except current, pinned, and group tabs"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "সব ট্যাব বন্ধ করুন এবং সার্চ ইতিহাস মুছে ফেলুন",
+    "description": "Option to close all tabs and clear search history"
+  },
+  "saveButton": {
+    "message": "সংরক্ষণ করুন",
+    "description": "Text for the save button"
+  },
+  "saveExitButton": {
+    "message": "সংরক্ষণ করে বের হন",
+    "description": "Text for the save and exit button"
+  },
+  "executeButton": {
+    "message": "কার্যকর করুন ও সংরক্ষণ করুন",
+    "description": "Text for the execute and save button"
+  },
+  "saveExecuteExitButton": {
+    "message": "সংরক্ষণ করুন, কার্যকর করুন ও বের হন",
+    "description": "Text for the save, execute, and exit button"
+  },
+  "settingsSaved": {
+    "message": "সেটিংস সংরক্ষিত হয়েছে।",
+    "description": "Message shown when settings are saved"
+  },
+  "executingTabClosure": {
+    "message": "ট্যাব বন্ধ করা হচ্ছে...",
+    "description": "Message shown when executing tab closure"
+  },
+  "tabClosureFailure": {
+    "message": "ট্যাব বন্ধ করা শুরু করতে ব্যর্থ হয়েছে।",
+    "description": "Message shown when tab closure fails"
+  }
+}
