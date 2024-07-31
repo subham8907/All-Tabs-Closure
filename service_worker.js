@@ -130,7 +130,7 @@ const closeAllTabs = async function(action) {
                         await chrome.tabs.remove(tab.id);
                     }
                 }
-                console.log('Closed all unpinned tabs in current window except new tab');
+                console.log('Closed all  tabs in current window with exceptions');
                 break;
         }
     } catch (none) {
