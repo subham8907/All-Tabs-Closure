@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Impossibile avviare la chiusura delle schede.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Chiudi le altre schede nella finestra corrente (mantienile attive, bloccate e raggruppate)",
+    "description": "Option to close all tabs in current windows"
   }
 }

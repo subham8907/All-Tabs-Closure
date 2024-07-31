@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Kunne ikke starte fanelukking.",
     "description": "Message shown when tab closure fails (Norwegian)"
+  },
+  "currentwin": {
+    "message": "Lukk andre faner i gjeldende vindu (hold deg aktiv, festet og gruppert)",
+    "description": "Option to close all tabs in current windows"
   }
 }

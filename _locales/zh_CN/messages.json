@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "无法开始关闭标签页。",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "关闭当前窗口中的其他选项卡（保持活动、固定和分组）",
+    "description": "Option to close all tabs in current windows"
   }
 }

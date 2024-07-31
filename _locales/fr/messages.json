@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Échec de l'initialisation de la fermeture des onglets.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Fermer les autres onglets dans la fenêtre actuelle (les garder actifs, épinglés et groupés)",
+    "description": "Option to close all tabs in current windows"
   }
 }

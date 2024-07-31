@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Tab-Schließung konnte nicht initiiert werden.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Schließen Sie andere Registerkarten im aktuellen Fenster (lassen Sie sie aktiv, angeheftet und gruppiert)",
+    "description": "Option to close all tabs in current windows"
   }
 }

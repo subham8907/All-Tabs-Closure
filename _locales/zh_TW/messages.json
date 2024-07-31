@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "無法開始關閉分頁。",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "關閉目前視窗中的其他標籤（保持活動、固定和分組）",
+    "description": "Option to close all tabs in current windows"
   }
 }

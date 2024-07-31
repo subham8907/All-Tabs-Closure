@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "فشل في بدء إغلاق علامات التبويب.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "إغلاق علامات التبويب الأخرى في النافذة الحالية (الحفاظ عليها نشطة ومثبتة ومجمعة)",
+    "description": "Option to close all tabs in current windows"
   }
 }

@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "टैब बंद करने की प्रक्रिया शुरू करने में विफल।",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "वर्तमान विंडो में अन्य टैब बंद करें (सक्रिय, पिन किए गए और समूहीकृत रखें)",
+    "description": "Option to close all tabs in current windows"
   }
 }

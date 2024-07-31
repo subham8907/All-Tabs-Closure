@@ -122,6 +122,16 @@ const closeAllTabs = async function(action) {
             default:
                 console.log('Invalid action specified');
                 break;
+                case "currentwin":
+                const currentTab = (await chrome.tabs.query({ active: true, currentWindow: true }))[0];
+                const tabsInCurrentWindow = await chrome.tabs.query({'currentWindow': true});
+                for (let tab of tabsInCurrentWindow) {
+                    if (tab.id !== currentTab.id && !tab.pinned && tab.groupId === chrome.tabs.TAB_ID_NONE) {
+                        await chrome.tabs.remove(tab.id);
+                    }
+                }
+                console.log('Closed all unpinned tabs in current window except new tab');
+                break;
         }
     } catch (none) {
         ;

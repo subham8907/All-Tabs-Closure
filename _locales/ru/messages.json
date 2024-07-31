@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Не удалось начать закрытие вкладок.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Закрыть другие вкладки в текущем окне (оставить активными, закрепленными и сгруппированными)",
+    "description": "Option to close all tabs in current windows"
   }
 }

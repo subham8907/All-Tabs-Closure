@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "No se pudo iniciar el cierre de pestañas.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Cerrar otras pestañas en la ventana actual (mantener activas, ancladas y agrupadas)",
+    "description": "Option to close all tabs in current windows"
   }
 }

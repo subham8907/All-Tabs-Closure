@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Kon het sluiten van tabbladen niet starten.",
     "description": "Message shown when tab closure fails (Dutch)"
+  },
+  "currentwin": {
+    "message": "Sluit andere tabbladen in het huidige venster (houd ze actief, vastgezet en gegroepeerd)",
+    "description": "Option to close all tabs in current windows"
   }
 }

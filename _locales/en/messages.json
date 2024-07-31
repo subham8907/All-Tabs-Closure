@@ -63,6 +63,10 @@
     "message": "Close all tabs and clear search History",
     "description": "Option to close all tabs and clear search history"
   },
+  "currentwin": {
+    "message": "Close other tabs in current window (keep active, pinned, and grouped)",
+    "description": "Option to close all tabs in current windows"
+  },
   "saveButton": {
     "message": "Save",
     "description": "Text for the save button"

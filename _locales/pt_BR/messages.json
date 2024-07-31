@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Falha ao iniciar o fechamento das abas.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Feche outras abas na janela atual (mantenha ativas, fixadas e agrupadas)",
+    "description": "Option to close all tabs in current windows"
   }
 }

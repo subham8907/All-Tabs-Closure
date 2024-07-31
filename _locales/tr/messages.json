@@ -90,5 +90,9 @@
   "tabClosureFailure": {
     "message": "Sekme kapatma işlemi başlatılamadı.",
     "description": "Message shown when tab closure fails"
+  },
+  "currentwin": {
+    "message": "Mevcut penceredeki diğer sekmeleri kapat (etkin, sabitlenmiş ve gruplanmış olarak tut)",
+    "description": "Option to close all tabs in current windows"
   }
 }
