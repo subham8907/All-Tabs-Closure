@@ -127,6 +127,16 @@ const closeAllTabs = async function(action) {
         ;
     }
 };
+chrome.commands.onCommand.addListener((command) => {
+    if (command === "closeTabs") {
+      chrome.storage.local.get(['actionType'], (items) => {
+        const actionType = items.actionType || "newtab";
+        closeAllTabs(actionType);
+      });
+    } else if (command === "openSettings") {
+      chrome.tabs.create({ url: chrome.runtime.getURL("option/options.html") });
+    }
+  });
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "closeTabs") {
         chrome.storage.local.get(['actionType']).then(items => {
