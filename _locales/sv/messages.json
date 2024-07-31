@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "Stängning av alla flikar",
+    "description": "The name of the extension (Swedish)"
+  },
+  "extDescription": {
+    "message": "Stäng alla aktiva flikar i din webbläsare med ett klick.",
+    "description": "The description of the extension (Swedish)"
+  },
+  "popupTitle": {
+    "message": "Stängning av alla flikar",
+    "description": "The title of the popup (Swedish)"
+  },
+  "popupDescription": {
+    "message": "Redo för en nystart? Klicka nedan för att stänga alla dina öppna flikar direkt.",
+    "description": "The description in the popup (Swedish)"
+  },
+  "popupWarning": {
+    "message": "Var försiktig! Att klicka nedan kommer att stänga alla dina aktiva öppna flikar omedelbart.",
+    "description": "Warning message in the popup (Swedish)"
+  },
+  "closeAllTabsButton": {
+    "message": "Stäng alla flikar",
+    "description": "Text for the close all tabs button (Swedish)"
+  },
+  "optionsTitle": {
+    "message": "Inställningar för stängning av alla flikar",
+    "description": "The title of the options page (Swedish)"
+  },
+  "optionsCaution": {
+    "message": "Varning: Dessa åtgärder kommer att påverka tilläggets beteende.",
+    "description": "Caution message in the options page (Swedish)"
+  },
+  "optionNewTab": {
+    "message": "Öppna ny flik efter stängning förutom fästa",
+    "description": "Option to open new tab after closing (Swedish)"
+  },
+  "optionCloseAll": {
+    "message": "Stäng alla flikar (inklusive webbläsaren)",
+    "description": "Option to close all tabs including browser (Swedish)"
+  },
+  "optionCloseAllExceptBrowser": {
+    "message": "Stäng alla flikar (inklusive fästa) utan att stänga webbläsaren",
+    "description": "Option to close all tabs except browser (Swedish)"
+  },
+  "optionCloseExceptCurrentPinned": {
+    "message": "Stäng alla flikar förutom aktuell och fästa flikar",
+    "description": "Option to close all tabs except current and pinned (Swedish)"
+  },
+  "optionCloseExceptCurrent": {
+    "message": "Stäng alla flikar förutom aktuell flik",
+    "description": "Option to close all tabs except current (Swedish)"
+  },
+  "optionCloseOtherWindows": {
+    "message": "Stäng alla flikar i andra fönster",
+    "description": "Option to close all tabs in other windows (Swedish)"
+  },
+  "optionCloseExceptCurrentPinnedGroup": {
+    "message": "Stäng alla flikar förutom aktuella, fästa och gruppflikar",
+    "description": "Option to close all tabs except current, pinned, and group tabs (Swedish)"
+  },
+  "optionCloseAllClearHistory": {
+    "message": "Stäng alla flikar och rensa sökhistorik",
+    "description": "Option to close all tabs and clear search history (Swedish)"
+  },
+  "saveButton": {
+    "message": "Spara",
+    "description": "Text for the save button (Swedish)"
+  },
+  "saveExitButton": {
+    "message": "Spara och avsluta",
+    "description": "Text for the save and exit button (Swedish)"
+  },
+  "executeButton": {
+    "message": "Utför och spara",
+    "description": "Text for the execute and save button (Swedish)"
+  },
+  "saveExecuteExitButton": {
+    "message": "Spara, utför, avsluta",
+    "description": "Text for the save, execute, and exit button (Swedish)"
+  },
+  "settingsSaved": {
+    "message": "Inställningar sparade.",
+    "description": "Message shown when settings are saved (Swedish)"
+  },
+  "executingTabClosure": {
+    "message": "Utför flikstängning...",
+    "description": "Message shown when executing tab closure (Swedish)"
+  },
+  "tabClosureFailure": {
+    "message": "Misslyckades med att initiera flikstängning.",
+    "description": "Message shown when tab closure fails (Swedish)"
+  }
+}
