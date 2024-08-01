@@ -40,7 +40,7 @@ const closeAllTabs = async function(action) {
                     const tabIds = tabs.map(tab => tab.id);
                     if (tabIds.length > 0) {
                         console.log('Preparing to close tabs...');
-                        await new Promise(resolve => setTimeout(resolve, 500)); // 2 second delay
+                        await new Promise(resolve => setTimeout(resolve, 500)); 
                         await chrome.tabs.remove(tabIds);
                         console.log('All tabs closed successfully.');
                 } else {
@@ -159,7 +159,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             console.error('Error getting storage:', error);
             sendResponse({ status: "Error", error: error.message });
         });
-        return true; // Indicates that the response is sent asynchronously
+        return true; 
     }
 });
 

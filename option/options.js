@@ -30,12 +30,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     const saveExecuteExitButton = document.getElementById('saveExecuteExit');
     const quickexecutionButton = document.getElementById('quickexecution');
 
-    // Translate all elements with data-i18n attribute
+    
     document.querySelectorAll('[data-i18n]').forEach(el => {
         el.textContent = chrome.i18n.getMessage(el.getAttribute('data-i18n'));
     });
 
-    // Load saved options
+    
     const items = await chrome.storage.local.get(['actionType']);
     document.querySelector(`input[name="actionType"][value="${items.actionType || 'newtab'}"]`).checked = true;
 
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
     }
 
-    // Event listeners remain the same
+   
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
         await saveOptions();
