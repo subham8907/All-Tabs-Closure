@@ -36,11 +36,13 @@ const closeAllTabs = async function(action) {
                 console.log('Closed all tabs except new tab and pinned tabs');
                 break;
             
-            case "close":
-                const tabIds = tabs.map(tab => tab.id);
-                if (tabIds.length > 0) {
-                    await chrome.tabs.remove(tabIds);
-                    console.log('All tabs closed successfully.');
+                case "close":
+                    const tabIds = tabs.map(tab => tab.id);
+                    if (tabIds.length > 0) {
+                        console.log('Preparing to close tabs...');
+                        await new Promise(resolve => setTimeout(resolve, 500)); // 2 second delay
+                        await chrome.tabs.remove(tabIds);
+                        console.log('All tabs closed successfully.');
                 } else {
                     console.log('No tabs to close.');
                 }

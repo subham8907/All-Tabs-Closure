@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Fechar outros separadores na janela atual (manter ativa, fixada e agrupada)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Executar ",
+    "description": "Execute"
   }
 }

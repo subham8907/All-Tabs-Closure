@@ -75,6 +75,10 @@
     "message": "Save and Exit",
     "description": "Text for the save and exit button"
   },
+  "quickexecution": {
+    "message": "Execute",
+    "description": "Execute"
+  },
   "executeButton": {
     "message": "Execute and Save",
     "description": "Text for the execute and save button"

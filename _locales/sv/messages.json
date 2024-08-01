@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Stäng andra flikar i det aktuella fönstret (håll aktiv, fäst och grupperad)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Kör ",
+    "description": "Execute"
   }
 }

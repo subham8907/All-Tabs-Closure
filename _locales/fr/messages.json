@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Fermer les autres onglets dans la fenêtre actuelle (les garder actifs, épinglés et groupés)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Exécuter",
+    "description": "Execute"
   }
 }

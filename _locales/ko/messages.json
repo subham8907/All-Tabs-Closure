@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "현재 창에서 다른 탭 닫기(활성, 고정, 그룹화 유지）",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "실행하다 ",
+    "description": "Execute"
   }
 }

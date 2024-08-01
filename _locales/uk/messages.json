@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Закрити інші вкладки в поточному вікні (залишити активними, закріпленими та згрупованими)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Виконати ",
+    "description": "Execute"
   }
 }

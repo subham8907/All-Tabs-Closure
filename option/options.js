@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const saveExitButton = document.getElementById('saveExitButton');
     const executeButton = document.getElementById('executeButton');
     const saveExecuteExitButton = document.getElementById('saveExecuteExit');
+    const quickexecutionButton = document.getElementById('quickexecution');
 
     // Translate all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -78,6 +79,26 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
         });
     }
+    async function quickexecution(actionType) {
+        return new Promise((resolve, reject) => {
+            chrome.runtime.sendMessage({
+                action: "closeTabs",
+                actionType: actionType
+            }, function(response) {
+                if (response && response.status === "Closing tabs initiated") {
+                    status.textContent = chrome.i18n.getMessage('executingTabClosure');
+                    setTimeout(() => {
+                        status.textContent = '';
+                        resolve();
+                    }, -0);
+                } else {
+                    status.textContent = chrome.i18n.getMessage('tabClosureFailure');
+                    console.error("Failed to initiate tab closure.");
+                    reject(new Error("Failed to initiate tab closure"));
+                }
+            });
+        });
+    }
 
     // Event listeners remain the same
     form.addEventListener('submit', async function(e) {
@@ -110,6 +131,17 @@ document.addEventListener('DOMContentLoaded', async function() {
             await closeOptionsPage();
         } catch (error) {
             console.error("Error during save, execute, and exit:", error);
+        }
+    });
+    quickexecutionButton.addEventListener('click', async function() {
+        try {
+            const currentSetting = await chrome.storage.local.get(['actionType']);
+            const selectedActionType = document.querySelector('input[name="actionType"]:checked').value;
+            await quickexecution(selectedActionType);
+            await chrome.storage.local.set({ actionType: currentSetting.actionType });
+            document.querySelector(`input[name="actionType"][value="${currentSetting.actionType}"]`).checked = true;
+        } catch (error) {
+            console.error("Error in quickexecution:", error);
         }
     });
 });

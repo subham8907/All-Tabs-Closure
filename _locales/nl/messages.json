@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Sluit andere tabbladen in het huidige venster (houd ze actief, vastgezet en gegroepeerd)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Uitvoeren ",
+    "description": "Execute"
   }
 }

@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "বর্তমান উইন্ডোতে অন্যান্য ট্যাব বন্ধ করুন (সক্রিয়, পিন করা এবং গোষ্ঠীবদ্ধ রাখুন)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "এক্সিকিউট",
+    "description": "Execute"
   }
 }

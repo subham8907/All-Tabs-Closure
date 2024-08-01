@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Chiudi le altre schede nella finestra corrente (mantienile attive, bloccate e raggruppate)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Eseguire ",
+    "description": "Execute"
   }
 }

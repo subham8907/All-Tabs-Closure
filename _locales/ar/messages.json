@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "إغلاق علامات التبويب الأخرى في النافذة الحالية (الحفاظ عليها نشطة ومثبتة ومجمعة)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "ينفذ",
+    "description": "Execute"
   }
 }

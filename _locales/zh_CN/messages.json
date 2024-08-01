@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "关闭当前窗口中的其他选项卡（保持活动、固定和分组）",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "执行 ",
+    "description": "Execute"
   }
 }

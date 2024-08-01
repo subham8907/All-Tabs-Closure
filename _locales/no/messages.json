@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Lukk andre faner i gjeldende vindu (hold deg aktiv, festet og gruppert)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Henrette ",
+    "description": "Execute"
   }
 }

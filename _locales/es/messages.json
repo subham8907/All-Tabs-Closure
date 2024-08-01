@@ -94,5 +94,9 @@
   "currentwin": {
     "message": "Cerrar otras pestañas en la ventana actual (mantener activas, ancladas y agrupadas)",
     "description": "Option to close all tabs in current windows"
+  },
+  "quickexecution": {
+    "message": "Ejecutar",
+    "description": "Execute"
   }
 }
