@@ -5,6 +5,8 @@
  <a href="https://chromewebstore.google.com/detail/all-tabs-closure/bpiekeniajgabgndghkaagjehjipmcgi">
     <img height="58" src="https://i.imgur.com/K9Yh8G9.png" alt="Chrome Web Store"></a>
 
+   <a href="https://microsoftedge.microsoft.com/addons/detail/all-tabs-closure/dhpdomooolpjlplgjinogkejobkknkgm" target="_blank" rel="noopener noreferrer">Microsoft Edge Add-ons</a>
+
     
 ## Overview
 
