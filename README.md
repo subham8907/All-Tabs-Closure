@@ -1,6 +1,6 @@
 # All Tabs Closure Chromium Extension
 
-![All Tabs Closure Icon](https://github.com/subham8907/All-Tabs-Closure/blob/main/icons/icontrans128_dark.png)
+![All Tabs Closure Icon](https://github.com/subham8907/All-Tabs-Closure/blob/main/icons/icontrans128_light.png)
 
  <a href="https://chromewebstore.google.com/detail/all-tabs-closure/bpiekeniajgabgndghkaagjehjipmcgi">
     <img height="58" src="https://i.imgur.com/K9Yh8G9.png" alt="Chrome Web Store"></a>
