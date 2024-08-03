@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', async function() {
             await quickexecution(selectedActionType);
             await chrome.storage.local.set({ actionType: currentSetting.actionType });
             document.querySelector(`input[name="actionType"][value="${currentSetting.actionType}"]`).checked = true;
-        } catch (error) {
-            console.error("Error in quickexecution:", error);
+        } catch (none) {
+            ;
         }
     });
 });

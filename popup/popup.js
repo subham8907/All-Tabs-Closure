@@ -25,7 +25,6 @@ SOFTWARE.
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Localize UI elements
     document.querySelectorAll('[data-i18n]').forEach(element => {
         element.textContent = chrome.i18n.getMessage(element.getAttribute('data-i18n'));
     });
@@ -39,5 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error(chrome.i18n.getMessage("tabClosureFailure"));
             }
         });
+    });
+    var settingsButton = document.getElementById('settings-button');
+    settingsButton.addEventListener('click', function() {
+        chrome.runtime.openOptionsPage();
     });
 });
