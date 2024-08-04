@@ -1,3 +1,8 @@
+<!--
+Copyright (c) 2024 Subham Mahesh
+This work © 2024 by Subham Mahesh is licensed under Creative Commons Attribution 4.0 International.
+ To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <path d="M101.6 30H34.4C29.7608 30 26 33.8451 26 38.5882V94.4118C26 99.1549 29.7608 103 34.4 103H101.6C106.239 103 110 99.1549 110 94.4118V38.5882C110 33.8451 106.239 30 101.6 30Z" stroke="white" stroke-width="3" fill="none"/>
   <path d="M109 37C109 33.134 105.284 30 100.7 30H67.5H34.3C29.716 30 26 33.134 26 37C26 40.866 29.716 44 34.3 44H67.5H100.7C105.284 44 109 40.866 109 37Z" stroke="white" stroke-width="3" fill="none"/>
