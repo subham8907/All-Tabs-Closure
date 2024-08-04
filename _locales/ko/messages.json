@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "모든 탭 닫기",
-    "description": "The name of the extension"
+    "description": "확장 프로그램의 이름"
   },
   "extDescription": {
     "message": "브라우저의 모든 활성 탭을 한 번의 클릭으로 닫습니다.",
-    "description": "The description of the extension"
+    "description": "확장 프로그램의 설명"
   },
   "popupTitle": {
     "message": "모든 탭 닫기",
-    "description": "The title of the popup"
+    "description": "팝업의 제목"
   },
   "popupDescription": {
-    "message": "새로 시작할 준비가 되셨나요? 아래 버튼을 클릭하여 열린 모든 탭을 즉시 닫을 수 있습니다.",
-    "description": "The description in the popup"
+    "message": "새로운 시작을 준비하셨나요? 아래를 클릭하여 열려 있는 모든 탭을 즉시 닫으세요.",
+    "description": "팝업의 설명"
   },
   "popupWarning": {
-    "message": "주의하세요! 아래 버튼을 클릭하면 현재 열려 있는 모든 활성 탭이 즉시 닫힙니다.",
-    "description": "Warning message in the popup"
+    "message": "주의하세요! 아래를 클릭하면 열려 있는 모든 활성 탭이 즉시 닫힙니다.",
+    "description": "팝업의 경고 메시지"
   },
   "closeAllTabsButton": {
     "message": "모든 탭 닫기",
-    "description": "Text for the close all tabs button"
+    "description": "모든 탭 닫기 버튼의 텍스트"
   },
   "optionsTitle": {
     "message": "모든 탭 닫기 설정",
-    "description": "The title of the options page"
+    "description": "옵션 페이지의 제목"
   },
   "optionsCaution": {
-    "message": "주의: 이 작업들은 확장 프로그램의 동작에 영향을 미칩니다.",
-    "description": "Caution message in the options page"
+    "message": "주의: 이 작업들은 확장 프로그램의 동작에 영향을 줍니다.",
+    "description": "옵션 페이지의 주의 메시지"
   },
   "optionNewTab": {
     "message": "고정된 탭을 제외하고 닫은 후 새 탭 열기",
-    "description": "Option to open new tab after closing"
+    "description": "닫은 후 새 탭을 여는 옵션"
   },
   "optionCloseAll": {
     "message": "모든 탭 닫기 (브라우저 포함)",
-    "description": "Option to close all tabs including browser"
+    "description": "브라우저를 포함한 모든 탭을 닫는 옵션"
   },
   "optionCloseAllExceptBrowser": {
     "message": "브라우저를 닫지 않고 모든 탭 닫기 (고정된 탭 포함)",
-    "description": "Option to close all tabs except browser"
+    "description": "브라우저를 제외한 모든 탭을 닫는 옵션"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "현재 탭과 고정된 탭을 제외한 모든 탭 닫기",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "현재 탭과 고정된 탭을 제외한 모든 탭을 닫는 옵션"
   },
   "optionCloseExceptCurrent": {
     "message": "현재 탭을 제외한 모든 탭 닫기",
-    "description": "Option to close all tabs except current"
+    "description": "현재 탭을 제외한 모든 탭을 닫는 옵션"
   },
   "optionCloseOtherWindows": {
     "message": "다른 창의 모든 탭 닫기",
-    "description": "Option to close all tabs in other windows"
+    "description": "다른 창의 모든 탭을 닫는 옵션"
   },
   "optionCloseExceptCurrentPinnedGroup": {
     "message": "현재 탭, 고정된 탭, 그룹 탭을 제외한 모든 탭 닫기",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "description": "현재 탭, 고정된 탭, 그룹 탭을 제외한 모든 탭을 닫는 옵션"
   },
   "optionCloseAllClearHistory": {
     "message": "모든 탭을 닫고 검색 기록 지우기",
-    "description": "Option to close all tabs and clear search history"
+    "description": "모든 탭을 닫고 검색 기록을 지우는 옵션"
+  },
+  "currentwin": {
+    "message": "현재 창의 다른 탭 닫기 (활성, 고정, 그룹화된 탭 유지)",
+    "description": "현재 창의 모든 탭을 닫는 옵션"
   },
   "saveButton": {
     "message": "저장",
-    "description": "Text for the save button"
+    "description": "저장 버튼의 텍스트"
   },
   "saveExitButton": {
-    "message": "저장 후 종료",
-    "description": "Text for the save and exit button"
+    "message": "저장 및 종료",
+    "description": "저장 및 종료 버튼의 텍스트"
+  },
+  "quickexecution": {
+    "message": "실행",
+    "description": "실행"
   },
   "executeButton": {
-    "message": "실행 후 저장",
-    "description": "Text for the execute and save button"
+    "message": "실행 및 저장",
+    "description": "실행 및 저장 버튼의 텍스트"
   },
   "saveExecuteExitButton": {
-    "message": "저장, 실행 후 종료",
-    "description": "Text for the save, execute, and exit button"
+    "message": "저장, 실행, 종료",
+    "description": "저장, 실행, 종료 버튼의 텍스트"
   },
   "settingsSaved": {
     "message": "설정이 저장되었습니다.",
-    "description": "Message shown when settings are saved"
+    "description": "설정이 저장될 때 표시되는 메시지"
   },
   "executingTabClosure": {
     "message": "탭 닫기 실행 중...",
-    "description": "Message shown when executing tab closure"
+    "description": "탭 닫기 실행 시 표시되는 메시지"
   },
   "tabClosureFailure": {
-    "message": "탭 닫기를 시작할 수 없습니다.",
-    "description": "Message shown when tab closure fails"
+    "message": "탭 닫기를 시작하지 못했습니다.",
+    "description": "탭 닫기 실패 시 표시되는 메시지"
   },
-  "currentwin": {
-    "message": "현재 창에서 다른 탭 닫기(활성, 고정, 그룹화 유지）",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "탭 닫기 (Ctrl+X)",
+    "description": "탭 닫기 단축키 설명"
   },
-  "quickexecution": {
-    "message": "실행하다 ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "설정 열기 (Ctrl+Q)",
+    "description": "설정 열기 단축키 설명"
   }
 }

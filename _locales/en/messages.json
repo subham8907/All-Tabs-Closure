@@ -98,5 +98,13 @@
   "tabClosureFailure": {
     "message": "Failed to initiate tab closure.",
     "description": "Message shown when tab closure fails"
+  },
+  "shortcutCloseTabs": {
+    "message": "Close tabs (Ctrl+X)",
+    "description": "Description for the close tabs shortcut"
+  },
+  "shortcutOpenSettings": {
+    "message": "Open settings (Ctrl+Q)",
+    "description": "Description for the open settings shortcut"
   }
 }

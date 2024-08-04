@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "一键关闭所有标签页",
-    "description": "The name of the extension"
+    "description": "扩展名称"
   },
   "extDescription": {
     "message": "一键关闭浏览器中所有活动标签页。",
-    "description": "The description of the extension"
+    "description": "扩展描述"
   },
   "popupTitle": {
     "message": "一键关闭所有标签页",
-    "description": "The title of the popup"
+    "description": "弹出窗口标题"
   },
   "popupDescription": {
     "message": "准备重新开始？点击下方按钮立即关闭所有打开的标签页。",
-    "description": "The description in the popup"
+    "description": "弹出窗口描述"
   },
   "popupWarning": {
-    "message": "请注意！点击下方按钮将立即关闭所有当前打开的活动标签页。",
-    "description": "Warning message in the popup"
+    "message": "请谨慎操作！点击下方按钮将立即关闭所有活动的打开标签页。",
+    "description": "弹出窗口警告信息"
   },
   "closeAllTabsButton": {
     "message": "关闭所有标签页",
-    "description": "Text for the close all tabs button"
+    "description": "关闭所有标签页按钮文本"
   },
   "optionsTitle": {
     "message": "一键关闭所有标签页设置",
-    "description": "The title of the options page"
+    "description": "选项页面标题"
   },
   "optionsCaution": {
-    "message": "注意：这些操作将影响扩展程序的行为。",
-    "description": "Caution message in the options page"
+    "message": "注意：这些操作将影响扩展的行为。",
+    "description": "选项页面警告信息"
   },
   "optionNewTab": {
-    "message": "关闭后打开新标签页，固定标签页除外",
-    "description": "Option to open new tab after closing"
+    "message": "关闭后打开新标签页（不包括固定标签页）",
+    "description": "关闭后打开新标签页选项"
   },
   "optionCloseAll": {
     "message": "关闭所有标签页（包括浏览器）",
-    "description": "Option to close all tabs including browser"
+    "description": "关闭所有标签页（包括浏览器）选项"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "关闭所有标签页（包括固定标签页），但不关闭浏览器",
-    "description": "Option to close all tabs except browser"
+    "message": "关闭所有标签页（包括固定标签页）但不关闭浏览器",
+    "description": "关闭所有标签页但不关闭浏览器选项"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "关闭所有标签页，但保留当前页面和固定标签页",
-    "description": "Option to close all tabs except current and pinned"
+    "message": "关闭除当前和固定标签页外的所有标签页",
+    "description": "关闭除当前和固定标签页外的所有标签页选项"
   },
   "optionCloseExceptCurrent": {
-    "message": "关闭所有标签页，但保留当前页面",
-    "description": "Option to close all tabs except current"
+    "message": "关闭除当前标签页外的所有标签页",
+    "description": "关闭除当前标签页外的所有标签页选项"
   },
   "optionCloseOtherWindows": {
     "message": "关闭其他窗口中的所有标签页",
-    "description": "Option to close all tabs in other windows"
+    "description": "关闭其他窗口中的所有标签页选项"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "关闭所有标签页，但保留当前页面、固定标签页和分组标签页",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "关闭除当前、固定和分组标签页外的所有标签页",
+    "description": "关闭除当前、固定和分组标签页外的所有标签页选项"
   },
   "optionCloseAllClearHistory": {
     "message": "关闭所有标签页并清除搜索历史",
-    "description": "Option to close all tabs and clear search history"
+    "description": "关闭所有标签页并清除搜索历史选项"
+  },
+  "currentwin": {
+    "message": "关闭当前窗口中的其他标签页（保留活动、固定和分组标签页）",
+    "description": "关闭当前窗口中的所有标签页选项"
   },
   "saveButton": {
     "message": "保存",
-    "description": "Text for the save button"
+    "description": "保存按钮文本"
   },
   "saveExitButton": {
     "message": "保存并退出",
-    "description": "Text for the save and exit button"
+    "description": "保存并退出按钮文本"
+  },
+  "quickexecution": {
+    "message": "执行",
+    "description": "执行"
   },
   "executeButton": {
     "message": "执行并保存",
-    "description": "Text for the execute and save button"
+    "description": "执行并保存按钮文本"
   },
   "saveExecuteExitButton": {
     "message": "保存、执行并退出",
-    "description": "Text for the save, execute, and exit button"
+    "description": "保存、执行并退出按钮文本"
   },
   "settingsSaved": {
     "message": "设置已保存。",
-    "description": "Message shown when settings are saved"
+    "description": "设置保存时显示的消息"
   },
   "executingTabClosure": {
-    "message": "正在关闭标签页...",
-    "description": "Message shown when executing tab closure"
+    "message": "正在执行标签页关闭...",
+    "description": "执行标签页关闭时显示的消息"
   },
   "tabClosureFailure": {
-    "message": "无法开始关闭标签页。",
-    "description": "Message shown when tab closure fails"
+    "message": "无法启动标签页关闭。",
+    "description": "标签页关闭失败时显示的消息"
   },
-  "currentwin": {
-    "message": "关闭当前窗口中的其他选项卡（保持活动、固定和分组）",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "关闭标签页 (Ctrl+X)",
+    "description": "关闭标签页快捷键描述"
   },
-  "quickexecution": {
-    "message": "执行 ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "打开设置 (Ctrl+Q)",
+    "description": "打开设置快捷键描述"
   }
 }

@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "सभी टैब बंद करें",
-    "description": "The name of the extension"
+    "description": "एक्सटेंशन का नाम"
   },
   "extDescription": {
     "message": "अपने ब्राउज़र में सभी सक्रिय टैब को एक क्लिक में बंद करें।",
-    "description": "The description of the extension"
+    "description": "एक्सटेंशन का विवरण"
   },
   "popupTitle": {
     "message": "सभी टैब बंद करें",
-    "description": "The title of the popup"
+    "description": "पॉपअप का शीर्षक"
   },
   "popupDescription": {
-    "message": "नई शुरुआत के लिए तैयार हैं? नीचे क्लिक करके अपने सभी खुले टैब तुरंत बंद करें।",
-    "description": "The description in the popup"
+    "message": "नई शुरुआत के लिए तैयार? अपने सभी खुले टैब तुरंत बंद करने के लिए नीचे क्लिक करें।",
+    "description": "पॉपअप में विवरण"
   },
   "popupWarning": {
     "message": "कृपया सावधान रहें! नीचे क्लिक करने से आपके सभी सक्रिय खुले टैब तुरंत बंद हो जाएंगे।",
-    "description": "Warning message in the popup"
+    "description": "पॉपअप में चेतावनी संदेश"
   },
   "closeAllTabsButton": {
     "message": "सभी टैब बंद करें",
-    "description": "Text for the close all tabs button"
+    "description": "सभी टैब बंद करने के बटन का टेक्स्ट"
   },
   "optionsTitle": {
     "message": "सभी टैब बंद करने की सेटिंग्स",
-    "description": "The title of the options page"
+    "description": "विकल्प पृष्ठ का शीर्षक"
   },
   "optionsCaution": {
-    "message": "सावधान: ये क्रियाएँ एक्सटेंशन के व्यवहार को प्रभावित करेंगी।",
-    "description": "Caution message in the options page"
+    "message": "सावधानी: ये क्रियाएँ एक्सटेंशन के व्यवहार को प्रभावित करेंगी।",
+    "description": "विकल्प पृष्ठ में सावधानी संदेश"
   },
   "optionNewTab": {
     "message": "पिन किए गए टैब को छोड़कर बंद करने के बाद नया टैब खोलें",
-    "description": "Option to open new tab after closing"
+    "description": "बंद करने के बाद नया टैब खोलने का विकल्प"
   },
   "optionCloseAll": {
     "message": "सभी टैब बंद करें (ब्राउज़र सहित)",
-    "description": "Option to close all tabs including browser"
+    "description": "ब्राउज़र सहित सभी टैब बंद करने का विकल्प"
   },
   "optionCloseAllExceptBrowser": {
     "message": "ब्राउज़र को बंद किए बिना सभी टैब बंद करें (पिन किए गए टैब सहित)",
-    "description": "Option to close all tabs except browser"
+    "description": "ब्राउज़र को छोड़कर सभी टैब बंद करने का विकल्प"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "वर्तमान और पिन किए गए टैब को छोड़कर सभी टैब बंद करें",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "वर्तमान और पिन किए गए टैब को छोड़कर सभी टैब बंद करने का विकल्प"
   },
   "optionCloseExceptCurrent": {
     "message": "वर्तमान टैब को छोड़कर सभी टैब बंद करें",
-    "description": "Option to close all tabs except current"
+    "description": "वर्तमान टैब को छोड़कर सभी टैब बंद करने का विकल्प"
   },
   "optionCloseOtherWindows": {
-    "message": "अन्य विंडोज में सभी टैब बंद करें",
-    "description": "Option to close all tabs in other windows"
+    "message": "अन्य विंडो में सभी टैब बंद करें",
+    "description": "अन्य विंडो में सभी टैब बंद करने का विकल्प"
   },
   "optionCloseExceptCurrentPinnedGroup": {
     "message": "वर्तमान, पिन किए गए, और समूह टैब को छोड़कर सभी टैब बंद करें",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "description": "वर्तमान, पिन किए गए, और समूह टैब को छोड़कर सभी टैब बंद करने का विकल्प"
   },
   "optionCloseAllClearHistory": {
     "message": "सभी टैब बंद करें और खोज इतिहास साफ़ करें",
-    "description": "Option to close all tabs and clear search history"
+    "description": "सभी टैब बंद करने और खोज इतिहास साफ़ करने का विकल्प"
+  },
+  "currentwin": {
+    "message": "वर्तमान विंडो में अन्य टैब बंद करें (सक्रिय, पिन किए गए, और समूह रखें)",
+    "description": "वर्तमान विंडो में सभी टैब बंद करने का विकल्प"
   },
   "saveButton": {
     "message": "सहेजें",
-    "description": "Text for the save button"
+    "description": "सहेजें बटन का टेक्स्ट"
   },
   "saveExitButton": {
     "message": "सहेजें और बाहर निकलें",
-    "description": "Text for the save and exit button"
+    "description": "सहेजें और बाहर निकलें बटन का टेक्स्ट"
+  },
+  "quickexecution": {
+    "message": "निष्पादित करें",
+    "description": "निष्पादित करें"
   },
   "executeButton": {
-    "message": "चलाएँ और सहेजें",
-    "description": "Text for the execute and save button"
+    "message": "निष्पादित करें और सहेजें",
+    "description": "निष्पादित करें और सहेजें बटन का टेक्स्ट"
   },
   "saveExecuteExitButton": {
-    "message": "सहेजें, चलाएँ और बाहर निकलें",
-    "description": "Text for the save, execute, and exit button"
+    "message": "सहेजें, निष्पादित करें, बाहर निकलें",
+    "description": "सहेजें, निष्पादित करें, बाहर निकलें बटन का टेक्स्ट"
   },
   "settingsSaved": {
     "message": "सेटिंग्स सहेजी गईं।",
-    "description": "Message shown when settings are saved"
+    "description": "सेटिंग्स सहेजने पर दिखाया गया संदेश"
   },
   "executingTabClosure": {
-    "message": "टैब बंद किए जा रहे हैं...",
-    "description": "Message shown when executing tab closure"
+    "message": "टैब बंद करना निष्पादित कर रहा है...",
+    "description": "टैब बंद करने के निष्पादन पर दिखाया गया संदेश"
   },
   "tabClosureFailure": {
-    "message": "टैब बंद करने की प्रक्रिया शुरू करने में विफल।",
-    "description": "Message shown when tab closure fails"
+    "message": "टैब बंद करने की शुरुआत करने में विफल।",
+    "description": "टैब बंद करने की विफलता पर दिखाया गया संदेश"
   },
-  "currentwin": {
-    "message": "वर्तमान विंडो में अन्य टैब बंद करें (सक्रिय, पिन किए गए और समूहीकृत रखें)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "टैब बंद करें (Ctrl+X)",
+    "description": "टैब बंद करने के शॉर्टकट का विवरण"
   },
-  "quickexecution": {
-    "message": "निष्पादित करना ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "सेटिंग्स खोलें (Ctrl+Q)",
+    "description": "सेटिंग्स खोलने के शॉर्टकट का विवरण"
   }
 }

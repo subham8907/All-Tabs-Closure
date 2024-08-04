@@ -28,21 +28,21 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-},
-"commands": {
-  "closeTabs": {
-    "suggested_key": {
-      "default": "Ctrl+X",
-      "mac": "Ctrl+X"
-    },
-    "description": "Close tabs"
   },
-  "openSettings": {
-    "suggested_key": {
-      "default": "Ctrl+Q",
-      "mac": "Ctrl+Q"
+  "commands": {
+    "closeTabs": {
+      "suggested_key": {
+        "default": "Ctrl+X",
+        "mac": "Ctrl+X"
+      },
+      "description": "__MSG_shortcutCloseTabs__"
     },
-    "description": "Open settings"
+    "openSettings": {
+      "suggested_key": {
+        "default": "Ctrl+Q",
+        "mac": "Ctrl+Q"
+      },
+      "description": "__MSG_shortcutOpenSettings__"
+    }
   }
-}
 }

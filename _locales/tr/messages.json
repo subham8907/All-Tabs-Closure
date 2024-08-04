@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Tüm Sekmeleri Kapat",
-    "description": "The name of the extension"
+    "message": "Tüm Sekmeleri Kapatma",
+    "description": "Uzantının adı"
   },
   "extDescription": {
     "message": "Tarayıcınızdaki tüm aktif sekmeleri tek tıklamayla kapatın.",
-    "description": "The description of the extension"
+    "description": "Uzantının açıklaması"
   },
   "popupTitle": {
-    "message": "Tüm Sekmeleri Kapat",
-    "description": "The title of the popup"
+    "message": "Tüm Sekmeleri Kapatma",
+    "description": "Açılır pencerenin başlığı"
   },
   "popupDescription": {
-    "message": "Yeni bir başlangıç için hazır mısınız? Açık olan tüm sekmeleri anında kapatmak için aşağıya tıklayın.",
-    "description": "The description in the popup"
+    "message": "Yeni bir başlangıç için hazır mısınız? Tüm açık sekmelerinizi anında kapatmak için aşağıya tıklayın.",
+    "description": "Açılır penceredeki açıklama"
   },
   "popupWarning": {
-    "message": "Lütfen dikkatli olun! Aşağıya tıklamak, açık olan tüm aktif sekmeleri anında kapatacaktır.",
-    "description": "Warning message in the popup"
+    "message": "Lütfen dikkatli olun! Aşağıya tıklamak, tüm aktif açık sekmelerinizi anında kapatacaktır.",
+    "description": "Açılır penceredeki uyarı mesajı"
   },
   "closeAllTabsButton": {
     "message": "Tüm Sekmeleri Kapat",
-    "description": "Text for the close all tabs button"
+    "description": "Tüm sekmeleri kapatma düğmesi için metin"
   },
   "optionsTitle": {
-    "message": "Tüm Sekmeleri Kapat Ayarları",
-    "description": "The title of the options page"
+    "message": "Tüm Sekmeleri Kapatma Ayarları",
+    "description": "Ayarlar sayfasının başlığı"
   },
   "optionsCaution": {
     "message": "Dikkat: Bu eylemler uzantının davranışını etkileyecektir.",
-    "description": "Caution message in the options page"
+    "description": "Ayarlar sayfasındaki dikkat mesajı"
   },
   "optionNewTab": {
-    "message": "Sabitlenmiş olanlar hariç kapattıktan sonra yeni sekme aç",
-    "description": "Option to open new tab after closing"
+    "message": "Sabitlenmiş sekmeler hariç kapattıktan sonra yeni sekme aç",
+    "description": "Kapattıktan sonra yeni sekme açma seçeneği"
   },
   "optionCloseAll": {
     "message": "Tüm sekmeleri kapat (tarayıcı dahil)",
-    "description": "Option to close all tabs including browser"
+    "description": "Tarayıcı dahil tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Tarayıcıyı kapatmadan tüm sekmeleri kapat (sabitlenmiş olanlar dahil)",
-    "description": "Option to close all tabs except browser"
+    "description": "Tarayıcı hariç tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "Mevcut ve sabitlenmiş sekmeler hariç tüm sekmeleri kapat",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "Mevcut ve sabitlenmiş sekmeler hariç tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseExceptCurrent": {
     "message": "Mevcut sekme hariç tüm sekmeleri kapat",
-    "description": "Option to close all tabs except current"
+    "description": "Mevcut sekme hariç tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseOtherWindows": {
     "message": "Diğer pencerelerdeki tüm sekmeleri kapat",
-    "description": "Option to close all tabs in other windows"
+    "description": "Diğer pencerelerdeki tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseExceptCurrentPinnedGroup": {
     "message": "Mevcut, sabitlenmiş ve grup sekmeleri hariç tüm sekmeleri kapat",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "description": "Mevcut, sabitlenmiş ve grup sekmeleri hariç tüm sekmeleri kapatma seçeneği"
   },
   "optionCloseAllClearHistory": {
     "message": "Tüm sekmeleri kapat ve arama geçmişini temizle",
-    "description": "Option to close all tabs and clear search history"
+    "description": "Tüm sekmeleri kapatma ve arama geçmişini temizleme seçeneği"
+  },
+  "currentwin": {
+    "message": "Mevcut penceredeki diğer sekmeleri kapat (aktif, sabitlenmiş ve gruplanmış olanları koru)",
+    "description": "Mevcut penceredeki tüm sekmeleri kapatma seçeneği"
   },
   "saveButton": {
     "message": "Kaydet",
-    "description": "Text for the save button"
+    "description": "Kaydet düğmesi için metin"
   },
   "saveExitButton": {
     "message": "Kaydet ve Çık",
-    "description": "Text for the save and exit button"
+    "description": "Kaydet ve çık düğmesi için metin"
+  },
+  "quickexecution": {
+    "message": "Çalıştır",
+    "description": "Çalıştır"
   },
   "executeButton": {
-    "message": "Uygula ve Kaydet",
-    "description": "Text for the execute and save button"
+    "message": "Çalıştır ve Kaydet",
+    "description": "Çalıştır ve kaydet düğmesi için metin"
   },
   "saveExecuteExitButton": {
-    "message": "Kaydet, Uygula ve Çık",
-    "description": "Text for the save, execute, and exit button"
+    "message": "Kaydet, Çalıştır, Çık",
+    "description": "Kaydet, çalıştır ve çık düğmesi için metin"
   },
   "settingsSaved": {
     "message": "Ayarlar kaydedildi.",
-    "description": "Message shown when settings are saved"
+    "description": "Ayarlar kaydedildiğinde gösterilen mesaj"
   },
   "executingTabClosure": {
-    "message": "Sekmeler kapatılıyor...",
-    "description": "Message shown when executing tab closure"
+    "message": "Sekme kapatma işlemi yürütülüyor...",
+    "description": "Sekme kapatma işlemi yürütülürken gösterilen mesaj"
   },
   "tabClosureFailure": {
     "message": "Sekme kapatma işlemi başlatılamadı.",
-    "description": "Message shown when tab closure fails"
+    "description": "Sekme kapatma işlemi başarısız olduğunda gösterilen mesaj"
   },
-  "currentwin": {
-    "message": "Mevcut penceredeki diğer sekmeleri kapat (etkin, sabitlenmiş ve gruplanmış olarak tut)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "Sekmeleri kapat (Ctrl+X)",
+    "description": "Sekmeleri kapatma kısayolu için açıklama"
   },
-  "quickexecution": {
-    "message": "Uygulamak ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "Ayarları aç (Ctrl+Q)",
+    "description": "Ayarları açma kısayolu için açıklama"
   }
 }

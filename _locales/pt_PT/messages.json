@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Fechamento de Todas as Abas",
-    "description": "The name of the extension"
+    "message": "Fechar Todos os Separadores",
+    "description": "O nome da extensão"
   },
   "extDescription": {
-    "message": "Feche todas as abas ativas no seu navegador com um clique.",
-    "description": "The description of the extension"
+    "message": "Feche todos os separadores ativos no seu navegador com um clique.",
+    "description": "A descrição da extensão"
   },
   "popupTitle": {
-    "message": "Fechamento de Todas as Abas",
-    "description": "The title of the popup"
+    "message": "Fechar Todos os Separadores",
+    "description": "O título do pop-up"
   },
   "popupDescription": {
-    "message": "Pronto para um novo começo? Clique abaixo para fechar instantaneamente todas as suas abas abertas.",
-    "description": "The description in the popup"
+    "message": "Pronto para um novo começo? Clique abaixo para fechar instantaneamente todos os seus separadores abertos.",
+    "description": "A descrição no pop-up"
   },
   "popupWarning": {
-    "message": "Por favor, tenha cuidado! Clicar abaixo fechará instantaneamente todas as suas abas ativas abertas.",
-    "description": "Warning message in the popup"
+    "message": "Atenção! Clicar abaixo fechará imediatamente todos os seus separadores ativos abertos.",
+    "description": "Mensagem de aviso no pop-up"
   },
   "closeAllTabsButton": {
-    "message": "Fechar Todas as Abas",
-    "description": "Text for the close all tabs button"
+    "message": "Fechar Todos os Separadores",
+    "description": "Texto para o botão de fechar todos os separadores"
   },
   "optionsTitle": {
-    "message": "Configurações do Fechamento de Todas as Abas",
-    "description": "The title of the options page"
+    "message": "Definições de Fechar Todos os Separadores",
+    "description": "O título da página de opções"
   },
   "optionsCaution": {
     "message": "Atenção: Estas ações afetarão o comportamento da extensão.",
-    "description": "Caution message in the options page"
+    "description": "Mensagem de cuidado na página de opções"
   },
   "optionNewTab": {
-    "message": "Abrir nova aba após fechar, exceto as fixadas",
-    "description": "Option to open new tab after closing"
+    "message": "Abrir novo separador após fechar, exceto os fixados",
+    "description": "Opção para abrir novo separador após fechar"
   },
   "optionCloseAll": {
-    "message": "Fechar todas as abas (incluindo o navegador)",
-    "description": "Option to close all tabs including browser"
+    "message": "Fechar todos os separadores (incluindo o navegador)",
+    "description": "Opção para fechar todos os separadores incluindo o navegador"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "Fechar todas as abas (incluindo as fixadas) sem fechar o navegador",
-    "description": "Option to close all tabs except browser"
+    "message": "Fechar todos os separadores (incluindo os fixados) sem fechar o navegador",
+    "description": "Opção para fechar todos os separadores exceto o navegador"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "Fechar todas as abas exceto a atual e as fixadas",
-    "description": "Option to close all tabs except current and pinned"
+    "message": "Fechar todos os separadores exceto o atual e os fixados",
+    "description": "Opção para fechar todos os separadores exceto o atual e os fixados"
   },
   "optionCloseExceptCurrent": {
-    "message": "Fechar todas as abas exceto a atual",
-    "description": "Option to close all tabs except current"
+    "message": "Fechar todos os separadores exceto o atual",
+    "description": "Opção para fechar todos os separadores exceto o atual"
   },
   "optionCloseOtherWindows": {
-    "message": "Fechar todas as abas em outras janelas",
-    "description": "Option to close all tabs in other windows"
+    "message": "Fechar todos os separadores noutras janelas",
+    "description": "Opção para fechar todos os separadores noutras janelas"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Fechar todas as abas exceto a atual, as fixadas e os grupos",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "Fechar todos os separadores exceto o atual, os fixados e os de grupo",
+    "description": "Opção para fechar todos os separadores exceto o atual, os fixados e os de grupo"
   },
   "optionCloseAllClearHistory": {
-    "message": "Fechar todas as abas e limpar o histórico de pesquisa",
-    "description": "Option to close all tabs and clear search history"
-  },
-  "saveButton": {
-    "message": "Salvar",
-    "description": "Text for the save button"
-  },
-  "saveExitButton": {
-    "message": "Salvar e Sair",
-    "description": "Text for the save and exit button"
-  },
-  "executeButton": {
-    "message": "Executar e Salvar",
-    "description": "Text for the execute and save button"
-  },
-  "saveExecuteExitButton": {
-    "message": "Salvar, Executar, Sair",
-    "description": "Text for the save, execute, and exit button"
-  },
-  "settingsSaved": {
-    "message": "Configurações salvas.",
-    "description": "Message shown when settings are saved"
-  },
-  "executingTabClosure": {
-    "message": "Executando fechamento das abas...",
-    "description": "Message shown when executing tab closure"
-  },
-  "tabClosureFailure": {
-    "message": "Falha ao iniciar o fechamento das abas.",
-    "description": "Message shown when tab closure fails"
+    "message": "Fechar todos os separadores e limpar o histórico de pesquisa",
+    "description": "Opção para fechar todos os separadores e limpar o histórico de pesquisa"
   },
   "currentwin": {
-    "message": "Fechar outros separadores na janela atual (manter ativa, fixada e agrupada)",
-    "description": "Option to close all tabs in current windows"
+    "message": "Fechar outros separadores na janela atual (manter ativo, fixados e agrupados)",
+    "description": "Opção para fechar todos os separadores na janela atual"
+  },
+  "saveButton": {
+    "message": "Guardar",
+    "description": "Texto para o botão de guardar"
+  },
+  "saveExitButton": {
+    "message": "Guardar e Sair",
+    "description": "Texto para o botão de guardar e sair"
   },
   "quickexecution": {
-    "message": "Executar ",
-    "description": "Execute"
+    "message": "Executar",
+    "description": "Executar"
+  },
+  "executeButton": {
+    "message": "Executar e Guardar",
+    "description": "Texto para o botão de executar e guardar"
+  },
+  "saveExecuteExitButton": {
+    "message": "Guardar, Executar, Sair",
+    "description": "Texto para o botão de guardar, executar e sair"
+  },
+  "settingsSaved": {
+    "message": "Definições guardadas.",
+    "description": "Mensagem mostrada quando as definições são guardadas"
+  },
+  "executingTabClosure": {
+    "message": "A executar o fecho de separadores...",
+    "description": "Mensagem mostrada ao executar o fecho de separadores"
+  },
+  "tabClosureFailure": {
+    "message": "Falha ao iniciar o fecho de separadores.",
+    "description": "Mensagem mostrada quando o fecho de separadores falha"
+  },
+  "shortcutCloseTabs": {
+    "message": "Fechar separadores (Ctrl+X)",
+    "description": "Descrição para o atalho de fechar separadores"
+  },
+  "shortcutOpenSettings": {
+    "message": "Abrir definições (Ctrl+Q)",
+    "description": "Descrição para o atalho de abrir definições"
   }
 }

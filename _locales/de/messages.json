@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "Alle Tabs schließen",
-    "description": "The name of the extension"
+    "description": "Der Name der Erweiterung"
   },
   "extDescription": {
     "message": "Schließen Sie alle aktiven Tabs in Ihrem Browser mit einem Klick.",
-    "description": "The description of the extension"
+    "description": "Die Beschreibung der Erweiterung"
   },
   "popupTitle": {
     "message": "Alle Tabs schließen",
-    "description": "The title of the popup"
+    "description": "Der Titel des Popups"
   },
   "popupDescription": {
     "message": "Bereit für einen Neuanfang? Klicken Sie unten, um alle Ihre offenen Tabs sofort zu schließen.",
-    "description": "The description in the popup"
+    "description": "Die Beschreibung im Popup"
   },
   "popupWarning": {
     "message": "Bitte seien Sie vorsichtig! Wenn Sie unten klicken, werden alle Ihre aktiv geöffneten Tabs sofort geschlossen.",
-    "description": "Warning message in the popup"
+    "description": "Warnmeldung im Popup"
   },
   "closeAllTabsButton": {
     "message": "Alle Tabs schließen",
-    "description": "Text for the close all tabs button"
+    "description": "Text für den 'Alle Tabs schließen' Button"
   },
   "optionsTitle": {
     "message": "Einstellungen für 'Alle Tabs schließen'",
-    "description": "The title of the options page"
+    "description": "Der Titel der Optionsseite"
   },
   "optionsCaution": {
     "message": "Vorsicht: Diese Aktionen beeinflussen das Verhalten der Erweiterung.",
-    "description": "Caution message in the options page"
+    "description": "Vorsichtsmeldung auf der Optionsseite"
   },
   "optionNewTab": {
-    "message": "Neuen Tab öffnen nach dem Schließen, außer angeheftete",
-    "description": "Option to open new tab after closing"
+    "message": "Neuen Tab öffnen nach dem Schließen (außer angeheftete)",
+    "description": "Option zum Öffnen eines neuen Tabs nach dem Schließen"
   },
   "optionCloseAll": {
     "message": "Alle Tabs schließen (einschließlich Browser)",
-    "description": "Option to close all tabs including browser"
+    "description": "Option zum Schließen aller Tabs einschließlich des Browsers"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Alle Tabs schließen (einschließlich angeheftete) ohne den Browser zu schließen",
-    "description": "Option to close all tabs except browser"
+    "description": "Option zum Schließen aller Tabs außer dem Browser"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "Alle Tabs außer dem aktuellen und angehefteten schließen",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "Option zum Schließen aller Tabs außer dem aktuellen und angehefteten"
   },
   "optionCloseExceptCurrent": {
     "message": "Alle Tabs außer dem aktuellen schließen",
-    "description": "Option to close all tabs except current"
+    "description": "Option zum Schließen aller Tabs außer dem aktuellen"
   },
   "optionCloseOtherWindows": {
     "message": "Alle Tabs in anderen Fenstern schließen",
-    "description": "Option to close all tabs in other windows"
+    "description": "Option zum Schließen aller Tabs in anderen Fenstern"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Alle Tabs außer dem aktuellen, angehefteten und Gruppen-Tabs schließen",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "Alle Tabs außer dem aktuellen, angehefteten und gruppierten schließen",
+    "description": "Option zum Schließen aller Tabs außer dem aktuellen, angehefteten und gruppierten"
   },
   "optionCloseAllClearHistory": {
     "message": "Alle Tabs schließen und Suchverlauf löschen",
-    "description": "Option to close all tabs and clear search history"
+    "description": "Option zum Schließen aller Tabs und Löschen des Suchverlaufs"
+  },
+  "currentwin": {
+    "message": "Andere Tabs im aktuellen Fenster schließen (aktive, angeheftete und gruppierte behalten)",
+    "description": "Option zum Schließen aller Tabs im aktuellen Fenster"
   },
   "saveButton": {
     "message": "Speichern",
-    "description": "Text for the save button"
+    "description": "Text für den Speichern-Button"
   },
   "saveExitButton": {
     "message": "Speichern und Beenden",
-    "description": "Text for the save and exit button"
-  },
-  "executeButton": {
-    "message": "Ausführen und Speichern",
-    "description": "Text for the execute and save button"
-  },
-  "saveExecuteExitButton": {
-    "message": "Speichern, Ausführen, Beenden",
-    "description": "Text for the save, execute, and exit button"
-  },
-  "settingsSaved": {
-    "message": "Einstellungen gespeichert.",
-    "description": "Message shown when settings are saved"
-  },
-  "executingTabClosure": {
-    "message": "Führe Tab-Schließung aus...",
-    "description": "Message shown when executing tab closure"
-  },
-  "tabClosureFailure": {
-    "message": "Tab-Schließung konnte nicht initiiert werden.",
-    "description": "Message shown when tab closure fails"
-  },
-  "currentwin": {
-    "message": "Schließen Sie andere Registerkarten im aktuellen Fenster (lassen Sie sie aktiv, angeheftet und gruppiert)",
-    "description": "Option to close all tabs in current windows"
+    "description": "Text für den 'Speichern und Beenden' Button"
   },
   "quickexecution": {
     "message": "Ausführen",
-    "description": "Execute"
+    "description": "Ausführen"
+  },
+  "executeButton": {
+    "message": "Ausführen und Speichern",
+    "description": "Text für den 'Ausführen und Speichern' Button"
+  },
+  "saveExecuteExitButton": {
+    "message": "Speichern, Ausführen, Beenden",
+    "description": "Text für den 'Speichern, Ausführen, Beenden' Button"
+  },
+  "settingsSaved": {
+    "message": "Einstellungen gespeichert.",
+    "description": "Meldung, die angezeigt wird, wenn Einstellungen gespeichert werden"
+  },
+  "executingTabClosure": {
+    "message": "Führe Tab-Schließung aus...",
+    "description": "Meldung, die angezeigt wird, wenn die Tab-Schließung ausgeführt wird"
+  },
+  "tabClosureFailure": {
+    "message": "Tab-Schließung konnte nicht initiiert werden.",
+    "description": "Meldung, die angezeigt wird, wenn die Tab-Schließung fehlschlägt"
+  },
+  "shortcutCloseTabs": {
+    "message": "Tabs schließen (Strg+X)",
+    "description": "Beschreibung für die Tastenkombination zum Schließen von Tabs"
+  },
+  "shortcutOpenSettings": {
+    "message": "Einstellungen öffnen (Strg+Q)",
+    "description": "Beschreibung für die Tastenkombination zum Öffnen der Einstellungen"
   }
 }

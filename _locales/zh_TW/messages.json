@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "一鍵關閉所有分頁",
-    "description": "The name of the extension"
+    "description": "擴充功能名稱"
   },
   "extDescription": {
     "message": "一鍵關閉瀏覽器中所有活動分頁。",
-    "description": "The description of the extension"
+    "description": "擴充功能描述"
   },
   "popupTitle": {
     "message": "一鍵關閉所有分頁",
-    "description": "The title of the popup"
+    "description": "彈出視窗標題"
   },
   "popupDescription": {
-    "message": "準備重新開始？點擊下方按鈕立即關閉所有已開啟的分頁。",
-    "description": "The description in the popup"
+    "message": "準備重新開始？點擊下方按鈕立即關閉所有開啟的分頁。",
+    "description": "彈出視窗描述"
   },
   "popupWarning": {
-    "message": "請注意！點擊下方按鈕將立即關閉所有當前開啟的活動分頁。",
-    "description": "Warning message in the popup"
+    "message": "請謹慎操作！點擊下方按鈕將立即關閉所有活動的開啟分頁。",
+    "description": "彈出視窗警告訊息"
   },
   "closeAllTabsButton": {
     "message": "關閉所有分頁",
-    "description": "Text for the close all tabs button"
+    "description": "關閉所有分頁按鈕文字"
   },
   "optionsTitle": {
     "message": "一鍵關閉所有分頁設定",
-    "description": "The title of the options page"
+    "description": "選項頁面標題"
   },
   "optionsCaution": {
     "message": "注意：這些操作將影響擴充功能的行為。",
-    "description": "Caution message in the options page"
+    "description": "選項頁面警告訊息"
   },
   "optionNewTab": {
-    "message": "關閉後開啟新分頁，固定分頁除外",
-    "description": "Option to open new tab after closing"
+    "message": "關閉後開啟新分頁（不包括固定分頁）",
+    "description": "關閉後開啟新分頁選項"
   },
   "optionCloseAll": {
     "message": "關閉所有分頁（包括瀏覽器）",
-    "description": "Option to close all tabs including browser"
+    "description": "關閉所有分頁（包括瀏覽器）選項"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "關閉所有分頁（包括固定分頁），但不關閉瀏覽器",
-    "description": "Option to close all tabs except browser"
+    "message": "關閉所有分頁（包括固定分頁）但不關閉瀏覽器",
+    "description": "關閉所有分頁但不關閉瀏覽器選項"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "關閉所有分頁，但保留當前頁面和固定分頁",
-    "description": "Option to close all tabs except current and pinned"
+    "message": "關閉除目前和固定分頁外的所有分頁",
+    "description": "關閉除目前和固定分頁外的所有分頁選項"
   },
   "optionCloseExceptCurrent": {
-    "message": "關閉所有分頁，但保留當前頁面",
-    "description": "Option to close all tabs except current"
+    "message": "關閉除目前分頁外的所有分頁",
+    "description": "關閉除目前分頁外的所有分頁選項"
   },
   "optionCloseOtherWindows": {
     "message": "關閉其他視窗中的所有分頁",
-    "description": "Option to close all tabs in other windows"
+    "description": "關閉其他視窗中的所有分頁選項"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "關閉所有分頁，但保留當前頁面、固定分頁和群組分頁",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "關閉除目前、固定和分組分頁外的所有分頁",
+    "description": "關閉除目前、固定和分組分頁外的所有分頁選項"
   },
   "optionCloseAllClearHistory": {
-    "message": "關閉所有分頁並清除搜尋記錄",
-    "description": "Option to close all tabs and clear search history"
+    "message": "關閉所有分頁並清除搜尋歷史",
+    "description": "關閉所有分頁並清除搜尋歷史選項"
+  },
+  "currentwin": {
+    "message": "關閉目前視窗中的其他分頁（保留活動、固定和分組分頁）",
+    "description": "關閉目前視窗中的所有分頁選項"
   },
   "saveButton": {
     "message": "儲存",
-    "description": "Text for the save button"
+    "description": "儲存按鈕文字"
   },
   "saveExitButton": {
-    "message": "儲存並退出",
-    "description": "Text for the save and exit button"
+    "message": "儲存並離開",
+    "description": "儲存並離開按鈕文字"
+  },
+  "quickexecution": {
+    "message": "執行",
+    "description": "執行"
   },
   "executeButton": {
     "message": "執行並儲存",
-    "description": "Text for the execute and save button"
+    "description": "執行並儲存按鈕文字"
   },
   "saveExecuteExitButton": {
-    "message": "儲存、執行並退出",
-    "description": "Text for the save, execute, and exit button"
+    "message": "儲存、執行並離開",
+    "description": "儲存、執行並離開按鈕文字"
   },
   "settingsSaved": {
     "message": "設定已儲存。",
-    "description": "Message shown when settings are saved"
+    "description": "設定儲存時顯示的訊息"
   },
   "executingTabClosure": {
-    "message": "正在關閉分頁...",
-    "description": "Message shown when executing tab closure"
+    "message": "正在執行分頁關閉...",
+    "description": "執行分頁關閉時顯示的訊息"
   },
   "tabClosureFailure": {
-    "message": "無法開始關閉分頁。",
-    "description": "Message shown when tab closure fails"
+    "message": "無法啟動分頁關閉。",
+    "description": "分頁關閉失敗時顯示的訊息"
   },
-  "currentwin": {
-    "message": "關閉目前視窗中的其他標籤（保持活動、固定和分組）",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "關閉分頁 (Ctrl+X)",
+    "description": "關閉分頁快捷鍵描述"
   },
-  "quickexecution": {
-    "message": "執行 ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "開啟設定 (Ctrl+Q)",
+    "description": "開啟設定快捷鍵描述"
   }
 }

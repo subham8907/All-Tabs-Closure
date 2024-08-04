@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "全タブ一括閉じる",
-    "description": "The name of the extension"
+    "message": "全タブを閉じる",
+    "description": "拡張機能の名前"
   },
   "extDescription": {
-    "message": "ブラウザの全てのアクティブタブをワンクリックで閉じます。",
-    "description": "The description of the extension"
+    "message": "ブラウザのアクティブなタブをワンクリックで全て閉じます。",
+    "description": "拡張機能の説明"
   },
   "popupTitle": {
-    "message": "全タブ一括閉じる",
-    "description": "The title of the popup"
+    "message": "全タブを閉じる",
+    "description": "ポップアップのタイトル"
   },
   "popupDescription": {
-    "message": "新たに始める準備はできましたか？下のボタンをクリックすると、開いているすべてのタブを即座に閉じます。",
-    "description": "The description in the popup"
+    "message": "新しい始まりの準備はできましたか？下をクリックして、開いているタブを即座に全て閉じます。",
+    "description": "ポップアップの説明"
   },
   "popupWarning": {
-    "message": "注意！下のボタンをクリックすると、現在開いているすべてのアクティブタブが即座に閉じられます。",
-    "description": "Warning message in the popup"
+    "message": "注意してください！下をクリックすると、開いているアクティブなタブが即座に全て閉じられます。",
+    "description": "ポップアップの警告メッセージ"
   },
   "closeAllTabsButton": {
     "message": "全タブを閉じる",
-    "description": "Text for the close all tabs button"
+    "description": "全タブを閉じるボタンのテキスト"
   },
   "optionsTitle": {
-    "message": "全タブ一括閉じる設定",
-    "description": "The title of the options page"
+    "message": "全タブを閉じる設定",
+    "description": "オプションページのタイトル"
   },
   "optionsCaution": {
-    "message": "注意：これらの操作は拡張機能の動作に影響します。",
-    "description": "Caution message in the options page"
+    "message": "注意：これらのアクションは拡張機能の動作に影響します。",
+    "description": "オプションページの注意メッセージ"
   },
   "optionNewTab": {
-    "message": "固定タブを除き、閉じた後に新しいタブを開く",
-    "description": "Option to open new tab after closing"
+    "message": "ピン留めされたタブ以外を閉じた後に新しいタブを開く",
+    "description": "閉じた後に新しいタブを開くオプション"
   },
   "optionCloseAll": {
-    "message": "全タブを閉じる（ブラウザも含む）",
-    "description": "Option to close all tabs including browser"
+    "message": "全てのタブを閉じる（ブラウザを含む）",
+    "description": "ブラウザを含む全てのタブを閉じるオプション"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "ブラウザを閉じずに全タブを閉じる（固定タブも含む）",
-    "description": "Option to close all tabs except browser"
+    "message": "ブラウザを閉じずに全てのタブを閉じる（ピン留めされたタブを含む）",
+    "description": "ブラウザを除く全てのタブを閉じるオプション"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "現在のタブと固定タブを除く全タブを閉じる",
-    "description": "Option to close all tabs except current and pinned"
+    "message": "現在のタブとピン留めされたタブ以外の全てのタブを閉じる",
+    "description": "現在のタブとピン留めされたタブ以外の全てのタブを閉じるオプション"
   },
   "optionCloseExceptCurrent": {
-    "message": "現在のタブを除く全タブを閉じる",
-    "description": "Option to close all tabs except current"
+    "message": "現在のタブ以外の全てのタブを閉じる",
+    "description": "現在のタブ以外の全てのタブを閉じるオプション"
   },
   "optionCloseOtherWindows": {
-    "message": "他のウィンドウの全タブを閉じる",
-    "description": "Option to close all tabs in other windows"
+    "message": "他のウィンドウの全てのタブを閉じる",
+    "description": "他のウィンドウの全てのタブを閉じるオプション"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "現在のタブ、固定タブ、グループタブを除く全タブを閉じる",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "現在のタブ、ピン留めされたタブ、グループ化されたタブ以外の全てのタブを閉じる",
+    "description": "現在のタブ、ピン留めされたタブ、グループ化されたタブ以外の全てのタブを閉じるオプション"
   },
   "optionCloseAllClearHistory": {
-    "message": "全タブを閉じて検索履歴をクリアする",
-    "description": "Option to close all tabs and clear search history"
+    "message": "全てのタブを閉じて検索履歴をクリアする",
+    "description": "全てのタブを閉じて検索履歴をクリアするオプション"
+  },
+  "currentwin": {
+    "message": "現在のウィンドウの他のタブを閉じる（アクティブ、ピン留め、グループ化されたタブを保持）",
+    "description": "現在のウィンドウの全てのタブを閉じるオプション"
   },
   "saveButton": {
     "message": "保存",
-    "description": "Text for the save button"
+    "description": "保存ボタンのテキスト"
   },
   "saveExitButton": {
     "message": "保存して終了",
-    "description": "Text for the save and exit button"
+    "description": "保存して終了ボタンのテキスト"
+  },
+  "quickexecution": {
+    "message": "実行",
+    "description": "実行"
   },
   "executeButton": {
     "message": "実行して保存",
-    "description": "Text for the execute and save button"
+    "description": "実行して保存ボタンのテキスト"
   },
   "saveExecuteExitButton": {
-    "message": "保存、実行して終了",
-    "description": "Text for the save, execute, and exit button"
+    "message": "保存、実行、終了",
+    "description": "保存、実行、終了ボタンのテキスト"
   },
   "settingsSaved": {
     "message": "設定が保存されました。",
-    "description": "Message shown when settings are saved"
+    "description": "設定が保存されたときに表示されるメッセージ"
   },
   "executingTabClosure": {
-    "message": "タブを閉じています...",
-    "description": "Message shown when executing tab closure"
+    "message": "タブの閉じる処理を実行中...",
+    "description": "タブを閉じる実行時に表示されるメッセージ"
   },
   "tabClosureFailure": {
-    "message": "タブの閉じる処理を開始できませんでした。",
-    "description": "Message shown when tab closure fails"
+    "message": "タブを閉じる処理の開始に失敗しました。",
+    "description": "タブを閉じる処理が失敗したときに表示されるメッセージ"
   },
-  "currentwin": {
-    "message": "現在のウィンドウ内の他のタブを閉じる（アクティブ、固定、グループ化されたままにする）",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "タブを閉じる (Ctrl+X)",
+    "description": "タブを閉じるショートカットの説明"
   },
-  "quickexecution": {
-    "message": "実行する ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "設定を開く (Ctrl+Q)",
+    "description": "設定を開くショートカットの説明"
   }
 }

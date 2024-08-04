@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Fermeture de Tous les Onglets",
-    "description": "The name of the extension"
+    "message": "Fermer Tous les Onglets",
+    "description": "Le nom de l'extension"
   },
   "extDescription": {
     "message": "Fermez tous les onglets actifs de votre navigateur en un seul clic.",
-    "description": "The description of the extension"
+    "description": "La description de l'extension"
   },
   "popupTitle": {
-    "message": "Fermeture de Tous les Onglets",
-    "description": "The title of the popup"
+    "message": "Fermer Tous les Onglets",
+    "description": "Le titre du popup"
   },
   "popupDescription": {
     "message": "Prêt pour un nouveau départ ? Cliquez ci-dessous pour fermer instantanément tous vos onglets ouverts.",
-    "description": "The description in the popup"
+    "description": "La description dans le popup"
   },
   "popupWarning": {
     "message": "Attention ! Cliquer ci-dessous fermera instantanément tous vos onglets actifs ouverts.",
-    "description": "Warning message in the popup"
+    "description": "Message d'avertissement dans le popup"
   },
   "closeAllTabsButton": {
     "message": "Fermer Tous les Onglets",
-    "description": "Text for the close all tabs button"
+    "description": "Texte pour le bouton de fermeture de tous les onglets"
   },
   "optionsTitle": {
     "message": "Paramètres de Fermeture de Tous les Onglets",
-    "description": "The title of the options page"
+    "description": "Le titre de la page d'options"
   },
   "optionsCaution": {
     "message": "Attention : Ces actions affecteront le comportement de l'extension.",
-    "description": "Caution message in the options page"
+    "description": "Message de mise en garde dans la page d'options"
   },
   "optionNewTab": {
-    "message": "Ouvrir un nouvel onglet après la fermeture, sauf les épinglés",
-    "description": "Option to open new tab after closing"
+    "message": "Ouvrir un nouvel onglet après la fermeture sauf les épinglés",
+    "description": "Option pour ouvrir un nouvel onglet après la fermeture"
   },
   "optionCloseAll": {
     "message": "Fermer tous les onglets (y compris le navigateur)",
-    "description": "Option to close all tabs including browser"
+    "description": "Option pour fermer tous les onglets y compris le navigateur"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Fermer tous les onglets (y compris les épinglés) sans fermer le navigateur",
-    "description": "Option to close all tabs except browser"
+    "description": "Option pour fermer tous les onglets sauf le navigateur"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "Fermer tous les onglets sauf l'onglet actuel et les épinglés",
-    "description": "Option to close all tabs except current and pinned"
+    "message": "Fermer tous les onglets sauf l'actuel et les épinglés",
+    "description": "Option pour fermer tous les onglets sauf l'actuel et les épinglés"
   },
   "optionCloseExceptCurrent": {
     "message": "Fermer tous les onglets sauf l'onglet actuel",
-    "description": "Option to close all tabs except current"
+    "description": "Option pour fermer tous les onglets sauf l'actuel"
   },
   "optionCloseOtherWindows": {
     "message": "Fermer tous les onglets dans les autres fenêtres",
-    "description": "Option to close all tabs in other windows"
+    "description": "Option pour fermer tous les onglets dans les autres fenêtres"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Fermer tous les onglets sauf l'actuel, les épinglés et les groupes",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "message": "Fermer tous les onglets sauf l'actuel, les épinglés et les groupés",
+    "description": "Option pour fermer tous les onglets sauf l'actuel, les épinglés et les groupés"
   },
   "optionCloseAllClearHistory": {
     "message": "Fermer tous les onglets et effacer l'historique de recherche",
-    "description": "Option to close all tabs and clear search history"
+    "description": "Option pour fermer tous les onglets et effacer l'historique de recherche"
+  },
+  "currentwin": {
+    "message": "Fermer les autres onglets dans la fenêtre actuelle (garder actif, épinglés et groupés)",
+    "description": "Option pour fermer tous les onglets dans la fenêtre actuelle"
   },
   "saveButton": {
     "message": "Enregistrer",
-    "description": "Text for the save button"
+    "description": "Texte pour le bouton d'enregistrement"
   },
   "saveExitButton": {
     "message": "Enregistrer et Quitter",
-    "description": "Text for the save and exit button"
-  },
-  "executeButton": {
-    "message": "Exécuter et Enregistrer",
-    "description": "Text for the execute and save button"
-  },
-  "saveExecuteExitButton": {
-    "message": "Enregistrer, Exécuter, Quitter",
-    "description": "Text for the save, execute, and exit button"
-  },
-  "settingsSaved": {
-    "message": "Paramètres enregistrés.",
-    "description": "Message shown when settings are saved"
-  },
-  "executingTabClosure": {
-    "message": "Fermeture des onglets en cours...",
-    "description": "Message shown when executing tab closure"
-  },
-  "tabClosureFailure": {
-    "message": "Échec de l'initialisation de la fermeture des onglets.",
-    "description": "Message shown when tab closure fails"
-  },
-  "currentwin": {
-    "message": "Fermer les autres onglets dans la fenêtre actuelle (les garder actifs, épinglés et groupés)",
-    "description": "Option to close all tabs in current windows"
+    "description": "Texte pour le bouton d'enregistrement et de sortie"
   },
   "quickexecution": {
     "message": "Exécuter",
-    "description": "Execute"
+    "description": "Exécuter"
+  },
+  "executeButton": {
+    "message": "Exécuter et Enregistrer",
+    "description": "Texte pour le bouton d'exécution et d'enregistrement"
+  },
+  "saveExecuteExitButton": {
+    "message": "Enregistrer, Exécuter, Quitter",
+    "description": "Texte pour le bouton d'enregistrement, d'exécution et de sortie"
+  },
+  "settingsSaved": {
+    "message": "Paramètres enregistrés.",
+    "description": "Message affiché lorsque les paramètres sont enregistrés"
+  },
+  "executingTabClosure": {
+    "message": "Exécution de la fermeture des onglets...",
+    "description": "Message affiché lors de l'exécution de la fermeture des onglets"
+  },
+  "tabClosureFailure": {
+    "message": "Échec de l'initialisation de la fermeture des onglets.",
+    "description": "Message affiché lorsque la fermeture des onglets échoue"
+  },
+  "shortcutCloseTabs": {
+    "message": "Fermer les onglets (Ctrl+X)",
+    "description": "Description du raccourci pour fermer les onglets"
+  },
+  "shortcutOpenSettings": {
+    "message": "Ouvrir les paramètres (Ctrl+Q)",
+    "description": "Description du raccourci pour ouvrir les paramètres"
   }
 }

@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "Stängning av alla flikar",
-    "description": "The name of the extension (Swedish)"
+    "description": "Namnet på tillägget"
   },
   "extDescription": {
     "message": "Stäng alla aktiva flikar i din webbläsare med ett klick.",
-    "description": "The description of the extension (Swedish)"
+    "description": "Beskrivningen av tillägget"
   },
   "popupTitle": {
     "message": "Stängning av alla flikar",
-    "description": "The title of the popup (Swedish)"
+    "description": "Titeln på popup-fönstret"
   },
   "popupDescription": {
-    "message": "Redo för en nystart? Klicka nedan för att stänga alla dina öppna flikar direkt.",
-    "description": "The description in the popup (Swedish)"
+    "message": "Redo för en ny start? Klicka nedan för att stänga alla dina öppna flikar direkt.",
+    "description": "Beskrivningen i popup-fönstret"
   },
   "popupWarning": {
     "message": "Var försiktig! Att klicka nedan kommer att stänga alla dina aktiva öppna flikar omedelbart.",
-    "description": "Warning message in the popup (Swedish)"
+    "description": "Varningsmeddelande i popup-fönstret"
   },
   "closeAllTabsButton": {
     "message": "Stäng alla flikar",
-    "description": "Text for the close all tabs button (Swedish)"
+    "description": "Text för knappen som stänger alla flikar"
   },
   "optionsTitle": {
     "message": "Inställningar för stängning av alla flikar",
-    "description": "The title of the options page (Swedish)"
+    "description": "Titeln på inställningssidan"
   },
   "optionsCaution": {
     "message": "Varning: Dessa åtgärder kommer att påverka tilläggets beteende.",
-    "description": "Caution message in the options page (Swedish)"
+    "description": "Varningsmeddelande på inställningssidan"
   },
   "optionNewTab": {
     "message": "Öppna ny flik efter stängning förutom fästa",
-    "description": "Option to open new tab after closing (Swedish)"
+    "description": "Alternativ för att öppna ny flik efter stängning"
   },
   "optionCloseAll": {
     "message": "Stäng alla flikar (inklusive webbläsaren)",
-    "description": "Option to close all tabs including browser (Swedish)"
+    "description": "Alternativ för att stänga alla flikar inklusive webbläsaren"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Stäng alla flikar (inklusive fästa) utan att stänga webbläsaren",
-    "description": "Option to close all tabs except browser (Swedish)"
+    "description": "Alternativ för att stänga alla flikar förutom webbläsaren"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "Stäng alla flikar förutom aktuell och fästa flikar",
-    "description": "Option to close all tabs except current and pinned (Swedish)"
+    "message": "Stäng alla flikar förutom nuvarande och fästa flikar",
+    "description": "Alternativ för att stänga alla flikar förutom nuvarande och fästa"
   },
   "optionCloseExceptCurrent": {
-    "message": "Stäng alla flikar förutom aktuell flik",
-    "description": "Option to close all tabs except current (Swedish)"
+    "message": "Stäng alla flikar förutom nuvarande flik",
+    "description": "Alternativ för att stänga alla flikar förutom nuvarande"
   },
   "optionCloseOtherWindows": {
     "message": "Stäng alla flikar i andra fönster",
-    "description": "Option to close all tabs in other windows (Swedish)"
+    "description": "Alternativ för att stänga alla flikar i andra fönster"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Stäng alla flikar förutom aktuella, fästa och gruppflikar",
-    "description": "Option to close all tabs except current, pinned, and group tabs (Swedish)"
+    "message": "Stäng alla flikar förutom nuvarande, fästa och gruppflikar",
+    "description": "Alternativ för att stänga alla flikar förutom nuvarande, fästa och gruppflikar"
   },
   "optionCloseAllClearHistory": {
-    "message": "Stäng alla flikar och rensa sökhistorik",
-    "description": "Option to close all tabs and clear search history (Swedish)"
+    "message": "Stäng alla flikar och rensa sökhistoriken",
+    "description": "Alternativ för att stänga alla flikar och rensa sökhistoriken"
+  },
+  "currentwin": {
+    "message": "Stäng andra flikar i aktuellt fönster (behåll aktiv, fästa och grupperade)",
+    "description": "Alternativ för att stänga alla flikar i aktuellt fönster"
   },
   "saveButton": {
     "message": "Spara",
-    "description": "Text for the save button (Swedish)"
+    "description": "Text för spara-knappen"
   },
   "saveExitButton": {
     "message": "Spara och avsluta",
-    "description": "Text for the save and exit button (Swedish)"
+    "description": "Text för spara och avsluta-knappen"
+  },
+  "quickexecution": {
+    "message": "Utför",
+    "description": "Utför"
   },
   "executeButton": {
     "message": "Utför och spara",
-    "description": "Text for the execute and save button (Swedish)"
+    "description": "Text för utför och spara-knappen"
   },
   "saveExecuteExitButton": {
     "message": "Spara, utför, avsluta",
-    "description": "Text for the save, execute, and exit button (Swedish)"
+    "description": "Text för spara, utför och avsluta-knappen"
   },
   "settingsSaved": {
     "message": "Inställningar sparade.",
-    "description": "Message shown when settings are saved (Swedish)"
+    "description": "Meddelande som visas när inställningar sparas"
   },
   "executingTabClosure": {
     "message": "Utför flikstängning...",
-    "description": "Message shown when executing tab closure (Swedish)"
+    "description": "Meddelande som visas när flikstängning utförs"
   },
   "tabClosureFailure": {
     "message": "Misslyckades med att initiera flikstängning.",
-    "description": "Message shown when tab closure fails (Swedish)"
+    "description": "Meddelande som visas när flikstängning misslyckas"
   },
-  "currentwin": {
-    "message": "Stäng andra flikar i det aktuella fönstret (håll aktiv, fäst och grupperad)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "Stäng flikar (Ctrl+X)",
+    "description": "Beskrivning för genvägen för att stänga flikar"
   },
-  "quickexecution": {
-    "message": "Kör ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "Öppna inställningar (Ctrl+Q)",
+    "description": "Beskrivning för genvägen för att öppna inställningar"
   }
 }

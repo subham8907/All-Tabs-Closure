@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Alle tabbladen sluiten",
-    "description": "The name of the extension (Dutch)"
+    "message": "Alle Tabbladen Sluiten",
+    "description": "De naam van de extensie"
   },
   "extDescription": {
     "message": "Sluit alle actieve tabbladen in je browser met één klik.",
-    "description": "The description of the extension (Dutch)"
+    "description": "De beschrijving van de extensie"
   },
   "popupTitle": {
-    "message": "Alle tabbladen sluiten",
-    "description": "The title of the popup (Dutch)"
+    "message": "Alle Tabbladen Sluiten",
+    "description": "De titel van de popup"
   },
   "popupDescription": {
-    "message": "Klaar voor een frisse start? Klik hieronder om al je open tabbladen direct te sluiten.",
-    "description": "The description in the popup (Dutch)"
+    "message": "Klaar voor een nieuwe start? Klik hieronder om al je open tabbladen direct te sluiten.",
+    "description": "De beschrijving in de popup"
   },
   "popupWarning": {
-    "message": "Wees voorzichtig! Door hieronder te klikken worden al je actieve geopende tabbladen direct gesloten.",
-    "description": "Warning message in the popup (Dutch)"
+    "message": "Let op! Als je hieronder klikt, worden al je actieve open tabbladen onmiddellijk gesloten.",
+    "description": "Waarschuwingsbericht in de popup"
   },
   "closeAllTabsButton": {
-    "message": "Sluit alle tabbladen",
-    "description": "Text for the close all tabs button (Dutch)"
+    "message": "Alle Tabbladen Sluiten",
+    "description": "Tekst voor de knop om alle tabbladen te sluiten"
   },
   "optionsTitle": {
-    "message": "Instellingen voor het sluiten van alle tabbladen",
-    "description": "The title of the options page (Dutch)"
+    "message": "Instellingen voor Alle Tabbladen Sluiten",
+    "description": "De titel van de optiepagina"
   },
   "optionsCaution": {
-    "message": "Let op: Deze acties zullen het gedrag van de extensie beïnvloeden.",
-    "description": "Caution message in the options page (Dutch)"
+    "message": "Waarschuwing: Deze acties beïnvloeden het gedrag van de extensie.",
+    "description": "Waarschuwingsbericht op de optiepagina"
   },
   "optionNewTab": {
-    "message": "Open nieuw tabblad na sluiten behalve vastgepinde",
-    "description": "Option to open new tab after closing (Dutch)"
+    "message": "Open nieuw tabblad na sluiten behalve vastgezette",
+    "description": "Optie om nieuw tabblad te openen na sluiten"
   },
   "optionCloseAll": {
     "message": "Sluit alle tabbladen (inclusief browser)",
-    "description": "Option to close all tabs including browser (Dutch)"
+    "description": "Optie om alle tabbladen inclusief browser te sluiten"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "Sluit alle tabbladen (inclusief vastgepinde) zonder de browser te sluiten",
-    "description": "Option to close all tabs except browser (Dutch)"
+    "message": "Sluit alle tabbladen (inclusief vastgezette) zonder browser te sluiten",
+    "description": "Optie om alle tabbladen behalve browser te sluiten"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "Sluit alle tabbladen behalve huidige en vastgepinde tabbladen",
-    "description": "Option to close all tabs except current and pinned (Dutch)"
+    "message": "Sluit alle tabbladen behalve huidige en vastgezette",
+    "description": "Optie om alle tabbladen behalve huidige en vastgezette te sluiten"
   },
   "optionCloseExceptCurrent": {
-    "message": "Sluit alle tabbladen behalve het huidige tabblad",
-    "description": "Option to close all tabs except current (Dutch)"
+    "message": "Sluit alle tabbladen behalve het huidige",
+    "description": "Optie om alle tabbladen behalve het huidige te sluiten"
   },
   "optionCloseOtherWindows": {
     "message": "Sluit alle tabbladen in andere vensters",
-    "description": "Option to close all tabs in other windows (Dutch)"
+    "description": "Optie om alle tabbladen in andere vensters te sluiten"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Sluit alle tabbladen behalve huidige, vastgepinde en groepstabbladen",
-    "description": "Option to close all tabs except current, pinned, and group tabs (Dutch)"
+    "message": "Sluit alle tabbladen behalve huidige, vastgezette, groepstabbladen",
+    "description": "Optie om alle tabbladen behalve huidige, vastgezette en groepstabbladen te sluiten"
   },
   "optionCloseAllClearHistory": {
     "message": "Sluit alle tabbladen en wis zoekgeschiedenis",
-    "description": "Option to close all tabs and clear search history (Dutch)"
+    "description": "Optie om alle tabbladen te sluiten en zoekgeschiedenis te wissen"
+  },
+  "currentwin": {
+    "message": "Sluit andere tabbladen in huidig venster (behoud actieve, vastgezette en gegroepeerde)",
+    "description": "Optie om alle tabbladen in huidig venster te sluiten"
   },
   "saveButton": {
     "message": "Opslaan",
-    "description": "Text for the save button (Dutch)"
+    "description": "Tekst voor de opslagknop"
   },
   "saveExitButton": {
-    "message": "Opslaan en afsluiten",
-    "description": "Text for the save and exit button (Dutch)"
+    "message": "Opslaan en Afsluiten",
+    "description": "Tekst voor de knop opslaan en afsluiten"
+  },
+  "quickexecution": {
+    "message": "Uitvoeren",
+    "description": "Uitvoeren"
   },
   "executeButton": {
-    "message": "Uitvoeren en opslaan",
-    "description": "Text for the execute and save button (Dutch)"
+    "message": "Uitvoeren en Opslaan",
+    "description": "Tekst voor de knop uitvoeren en opslaan"
   },
   "saveExecuteExitButton": {
-    "message": "Opslaan, uitvoeren, afsluiten",
-    "description": "Text for the save, execute, and exit button (Dutch)"
+    "message": "Opslaan, Uitvoeren, Afsluiten",
+    "description": "Tekst voor de knop opslaan, uitvoeren en afsluiten"
   },
   "settingsSaved": {
     "message": "Instellingen opgeslagen.",
-    "description": "Message shown when settings are saved (Dutch)"
+    "description": "Bericht getoond wanneer instellingen zijn opgeslagen"
   },
   "executingTabClosure": {
-    "message": "Tabbladen sluiten wordt uitgevoerd...",
-    "description": "Message shown when executing tab closure (Dutch)"
+    "message": "Bezig met sluiten van tabbladen...",
+    "description": "Bericht getoond bij het uitvoeren van tabbladen sluiten"
   },
   "tabClosureFailure": {
     "message": "Kon het sluiten van tabbladen niet starten.",
-    "description": "Message shown when tab closure fails (Dutch)"
+    "description": "Bericht getoond wanneer het sluiten van tabbladen mislukt"
   },
-  "currentwin": {
-    "message": "Sluit andere tabbladen in het huidige venster (houd ze actief, vastgezet en gegroepeerd)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "Tabbladen sluiten (Ctrl+X)",
+    "description": "Beschrijving voor de sneltoets om tabbladen te sluiten"
   },
-  "quickexecution": {
-    "message": "Uitvoeren ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "Instellingen openen (Ctrl+Q)",
+    "description": "Beschrijving voor de sneltoets om instellingen te openen"
   }
 }

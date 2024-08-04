@@ -1,102 +1,110 @@
 {
   "extName": {
     "message": "সব ট্যাব বন্ধ করুন",
-    "description": "The name of the extension"
+    "description": "এক্সটেনশনের নাম"
   },
   "extDescription": {
-    "message": "আপনার ব্রাউজারের সব সক্রিয় ট্যাব এক ক্লিকে বন্ধ করুন।",
-    "description": "The description of the extension"
+    "message": "আপনার ব্রাউজারে সক্রিয় সব ট্যাব এক ক্লিকে বন্ধ করুন।",
+    "description": "এক্সটেনশনের বিবরণ"
   },
   "popupTitle": {
     "message": "সব ট্যাব বন্ধ করুন",
-    "description": "The title of the popup"
+    "description": "পপ-আপের শিরোনাম"
   },
   "popupDescription": {
-    "message": "নতুন করে শুরু করতে প্রস্তুত? নীচে ক্লিক করে আপনার সব খোলা ট্যাব তৎক্ষণাৎ বন্ধ করুন।",
-    "description": "The description in the popup"
+    "message": "নতুন শুরুর জন্য প্রস্তুত? নিচে ক্লিক করে আপনার সব খোলা ট্যাব তৎক্ষণাৎ বন্ধ করুন।",
+    "description": "পপ-আপে বিবরণ"
   },
   "popupWarning": {
-    "message": "অনুগ্রহ করে সতর্ক থাকুন! নীচে ক্লিক করলে আপনার সব সক্রিয় খোলা ট্যাব তৎক্ষণাৎ বন্ধ হয়ে যাবে।",
-    "description": "Warning message in the popup"
+    "message": "অনুগ্রহ করে সতর্ক থাকুন! নিচে ক্লিক করলে আপনার সব সক্রিয় খোলা ট্যাব তৎক্ষণাৎ বন্ধ হয়ে যাবে।",
+    "description": "পপ-আপে সতর্কতা বার্তা"
   },
   "closeAllTabsButton": {
     "message": "সব ট্যাব বন্ধ করুন",
-    "description": "Text for the close all tabs button"
+    "description": "সব ট্যাব বন্ধ করার বোতামের টেক্সট"
   },
   "optionsTitle": {
     "message": "সব ট্যাব বন্ধ করার সেটিংস",
-    "description": "The title of the options page"
+    "description": "অপশন পৃষ্ঠার শিরোনাম"
   },
   "optionsCaution": {
     "message": "সতর্কতা: এই ক্রিয়াগুলি এক্সটেনশনের আচরণকে প্রভাবিত করবে।",
-    "description": "Caution message in the options page"
+    "description": "অপশন পৃষ্ঠায় সতর্কতা বার্তা"
   },
   "optionNewTab": {
     "message": "পিন করা ট্যাব ছাড়া বন্ধ করার পর নতুন ট্যাব খুলুন",
-    "description": "Option to open new tab after closing"
+    "description": "বন্ধ করার পর নতুন ট্যাব খোলার অপশন"
   },
   "optionCloseAll": {
-    "message": "সব ট্যাব বন্ধ করুন (ব্রাউজার সহ)",
-    "description": "Option to close all tabs including browser"
+    "message": "সব ট্যাব বন্ধ করুন (ব্রাউজারসহ)",
+    "description": "ব্রাউজারসহ সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseAllExceptBrowser": {
-    "message": "ব্রাউজার না বন্ধ করে সব ট্যাব বন্ধ করুন (পিন করা ট্যাব সহ)",
-    "description": "Option to close all tabs except browser"
+    "message": "ব্রাউজার না বন্ধ করে সব ট্যাব বন্ধ করুন (পিন করা ট্যাবসহ)",
+    "description": "ব্রাউজার ছাড়া সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "বর্তমান ও পিন করা ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "বর্তমান ও পিন করা ট্যাব ছাড়া সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseExceptCurrent": {
     "message": "বর্তমান ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
-    "description": "Option to close all tabs except current"
+    "description": "বর্তমান ট্যাব ছাড়া সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseOtherWindows": {
-    "message": "অন্য উইন্ডোগুলির সব ট্যাব বন্ধ করুন",
-    "description": "Option to close all tabs in other windows"
+    "message": "অন্য উইন্ডোতে সব ট্যাব বন্ধ করুন",
+    "description": "অন্য উইন্ডোতে সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseExceptCurrentPinnedGroup": {
     "message": "বর্তমান, পিন করা, ও গ্রুপ ট্যাব ছাড়া সব ট্যাব বন্ধ করুন",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "description": "বর্তমান, পিন করা, ও গ্রুপ ট্যাব ছাড়া সব ট্যাব বন্ধ করার অপশন"
   },
   "optionCloseAllClearHistory": {
-    "message": "সব ট্যাব বন্ধ করুন এবং সার্চ ইতিহাস মুছে ফেলুন",
-    "description": "Option to close all tabs and clear search history"
+    "message": "সব ট্যাব বন্ধ করুন ও সার্চ হিস্টরি মুছুন",
+    "description": "সব ট্যাব বন্ধ করা ও সার্চ হিস্টরি মোছার অপশন"
+  },
+  "currentwin": {
+    "message": "বর্তমান উইন্ডোতে অন্যান্য ট্যাব বন্ধ করুন (সক্রিয়, পিন করা, ও গ্রুপ করা রাখুন)",
+    "description": "বর্তমান উইন্ডোতে সব ট্যাব বন্ধ করার অপশন"
   },
   "saveButton": {
     "message": "সংরক্ষণ করুন",
-    "description": "Text for the save button"
+    "description": "সংরক্ষণ বোতামের টেক্সট"
   },
   "saveExitButton": {
-    "message": "সংরক্ষণ করে বের হন",
-    "description": "Text for the save and exit button"
+    "message": "সংরক্ষণ করুন ও প্রস্থান করুন",
+    "description": "সংরক্ষণ ও প্রস্থান বোতামের টেক্সট"
+  },
+  "quickexecution": {
+    "message": "সম্পাদন করুন",
+    "description": "সম্পাদন করুন"
   },
   "executeButton": {
-    "message": "কার্যকর করুন ও সংরক্ষণ করুন",
-    "description": "Text for the execute and save button"
+    "message": "সম্পাদন করুন ও সংরক্ষণ করুন",
+    "description": "সম্পাদন ও সংরক্ষণ বোতামের টেক্সট"
   },
   "saveExecuteExitButton": {
-    "message": "সংরক্ষণ করুন, কার্যকর করুন ও বের হন",
-    "description": "Text for the save, execute, and exit button"
+    "message": "সংরক্ষণ, সম্পাদন, ও প্রস্থান করুন",
+    "description": "সংরক্ষণ, সম্পাদন, ও প্রস্থান বোতামের টেক্সট"
   },
   "settingsSaved": {
     "message": "সেটিংস সংরক্ষিত হয়েছে।",
-    "description": "Message shown when settings are saved"
+    "description": "সেটিংস সংরক্ষণের পর দেখানো বার্তা"
   },
   "executingTabClosure": {
     "message": "ট্যাব বন্ধ করা হচ্ছে...",
-    "description": "Message shown when executing tab closure"
+    "description": "ট্যাব বন্ধ করার সময় দেখানো বার্তা"
   },
   "tabClosureFailure": {
     "message": "ট্যাব বন্ধ করা শুরু করতে ব্যর্থ হয়েছে।",
-    "description": "Message shown when tab closure fails"
+    "description": "ট্যাব বন্ধ করা ব্যর্থ হলে দেখানো বার্তা"
   },
-  "currentwin": {
-    "message": "বর্তমান উইন্ডোতে অন্যান্য ট্যাব বন্ধ করুন (সক্রিয়, পিন করা এবং গোষ্ঠীবদ্ধ রাখুন)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "ট্যাব বন্ধ করুন (Ctrl+X)",
+    "description": "ট্যাব বন্ধ করার শর্টকাট বিবরণ"
   },
-  "quickexecution": {
-    "message": "এক্সিকিউট",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "সেটিংস খুলুন (Ctrl+Q)",
+    "description": "সেটিংস খোলার শর্টকাট বিবরণ"
   }
 }

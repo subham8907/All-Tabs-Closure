@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Lukking av alle faner",
-    "description": "The name of the extension (Norwegian)"
+    "message": "Lukk Alle Faner",
+    "description": "Navnet på utvidelsen"
   },
   "extDescription": {
     "message": "Lukk alle aktive faner i nettleseren din med ett klikk.",
-    "description": "The description of the extension (Norwegian)"
+    "description": "Beskrivelsen av utvidelsen"
   },
   "popupTitle": {
-    "message": "Lukking av alle faner",
-    "description": "The title of the popup (Norwegian)"
+    "message": "Lukk Alle Faner",
+    "description": "Tittelen på popupen"
   },
   "popupDescription": {
-    "message": "Klar for en ny start? Klikk nedenfor for å lukke alle åpne faner umiddelbart.",
-    "description": "The description in the popup (Norwegian)"
+    "message": "Klar for en ny start? Klikk nedenfor for å lukke alle åpne faner øyeblikkelig.",
+    "description": "Beskrivelsen i popupen"
   },
   "popupWarning": {
     "message": "Vær forsiktig! Å klikke nedenfor vil lukke alle dine aktive åpne faner umiddelbart.",
-    "description": "Warning message in the popup (Norwegian)"
+    "description": "Advarselsmelding i popupen"
   },
   "closeAllTabsButton": {
-    "message": "Lukk alle faner",
-    "description": "Text for the close all tabs button (Norwegian)"
+    "message": "Lukk Alle Faner",
+    "description": "Tekst for knappen for å lukke alle faner"
   },
   "optionsTitle": {
-    "message": "Innstillinger for lukking av alle faner",
-    "description": "The title of the options page (Norwegian)"
+    "message": "Innstillinger for Lukk Alle Faner",
+    "description": "Tittelen på innstillingssiden"
   },
   "optionsCaution": {
-    "message": "Forsiktig: Disse handlingene vil påvirke utvidelsens oppførsel.",
-    "description": "Caution message in the options page (Norwegian)"
+    "message": "Advarsel: Disse handlingene vil påvirke utvidelsens oppførsel.",
+    "description": "Advarselsmelding på innstillingssiden"
   },
   "optionNewTab": {
     "message": "Åpne ny fane etter lukking unntatt festede",
-    "description": "Option to open new tab after closing (Norwegian)"
+    "description": "Alternativ for å åpne ny fane etter lukking"
   },
   "optionCloseAll": {
     "message": "Lukk alle faner (inkludert nettleseren)",
-    "description": "Option to close all tabs including browser (Norwegian)"
+    "description": "Alternativ for å lukke alle faner inkludert nettleseren"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Lukk alle faner (inkludert festede) uten å lukke nettleseren",
-    "description": "Option to close all tabs except browser (Norwegian)"
+    "description": "Alternativ for å lukke alle faner unntatt nettleseren"
   },
   "optionCloseExceptCurrentPinned": {
-    "message": "Lukk alle faner unntatt gjeldende og festede faner",
-    "description": "Option to close all tabs except current and pinned (Norwegian)"
+    "message": "Lukk alle faner unntatt nåværende og festede faner",
+    "description": "Alternativ for å lukke alle faner unntatt nåværende og festede"
   },
   "optionCloseExceptCurrent": {
-    "message": "Lukk alle faner unntatt gjeldende fane",
-    "description": "Option to close all tabs except current (Norwegian)"
+    "message": "Lukk alle faner unntatt nåværende fane",
+    "description": "Alternativ for å lukke alle faner unntatt nåværende"
   },
   "optionCloseOtherWindows": {
     "message": "Lukk alle faner i andre vinduer",
-    "description": "Option to close all tabs in other windows (Norwegian)"
+    "description": "Alternativ for å lukke alle faner i andre vinduer"
   },
   "optionCloseExceptCurrentPinnedGroup": {
-    "message": "Lukk alle faner unntatt gjeldende, festede og gruppefaner",
-    "description": "Option to close all tabs except current, pinned, and group tabs (Norwegian)"
+    "message": "Lukk alle faner unntatt nåværende, festede, gruppefaner",
+    "description": "Alternativ for å lukke alle faner unntatt nåværende, festede og gruppefaner"
   },
   "optionCloseAllClearHistory": {
-    "message": "Lukk alle faner og slett søkehistorikk",
-    "description": "Option to close all tabs and clear search history (Norwegian)"
+    "message": "Lukk alle faner og tøm søkehistorikk",
+    "description": "Alternativ for å lukke alle faner og tømme søkehistorikk"
+  },
+  "currentwin": {
+    "message": "Lukk andre faner i nåværende vindu (behold aktive, festede og grupperte)",
+    "description": "Alternativ for å lukke alle faner i nåværende vindu"
   },
   "saveButton": {
     "message": "Lagre",
-    "description": "Text for the save button (Norwegian)"
+    "description": "Tekst for lagreknappen"
   },
   "saveExitButton": {
-    "message": "Lagre og avslutt",
-    "description": "Text for the save and exit button (Norwegian)"
+    "message": "Lagre og Avslutt",
+    "description": "Tekst for knappen lagre og avslutt"
+  },
+  "quickexecution": {
+    "message": "Utfør",
+    "description": "Utfør"
   },
   "executeButton": {
-    "message": "Utfør og lagre",
-    "description": "Text for the execute and save button (Norwegian)"
+    "message": "Utfør og Lagre",
+    "description": "Tekst for knappen utfør og lagre"
   },
   "saveExecuteExitButton": {
-    "message": "Lagre, utfør, avslutt",
-    "description": "Text for the save, execute, and exit button (Norwegian)"
+    "message": "Lagre, Utfør, Avslutt",
+    "description": "Tekst for knappen lagre, utfør og avslutt"
   },
   "settingsSaved": {
     "message": "Innstillinger lagret.",
-    "description": "Message shown when settings are saved (Norwegian)"
+    "description": "Melding vist når innstillinger er lagret"
   },
   "executingTabClosure": {
-    "message": "Utfører fanelukking...",
-    "description": "Message shown when executing tab closure (Norwegian)"
+    "message": "Utfører lukking av faner...",
+    "description": "Melding vist ved utførelse av fanelukking"
   },
   "tabClosureFailure": {
-    "message": "Kunne ikke starte fanelukking.",
-    "description": "Message shown when tab closure fails (Norwegian)"
+    "message": "Kunne ikke starte lukking av faner.",
+    "description": "Melding vist når fanelukking mislykkes"
   },
-  "currentwin": {
-    "message": "Lukk andre faner i gjeldende vindu (hold deg aktiv, festet og gruppert)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "Lukk faner (Ctrl+X)",
+    "description": "Beskrivelse for snarveien for å lukke faner"
   },
-  "quickexecution": {
-    "message": "Henrette ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "Åpne innstillinger (Ctrl+Q)",
+    "description": "Beskrivelse for snarveien for å åpne innstillinger"
   }
 }

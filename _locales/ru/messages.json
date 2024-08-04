@@ -1,102 +1,110 @@
 {
   "extName": {
-    "message": "Закрытие Всех Вкладок",
-    "description": "The name of the extension"
+    "message": "Закрытие всех вкладок",
+    "description": "Название расширения"
   },
   "extDescription": {
     "message": "Закройте все активные вкладки в вашем браузере одним щелчком мыши.",
-    "description": "The description of the extension"
+    "description": "Описание расширения"
   },
   "popupTitle": {
-    "message": "Закрытие Всех Вкладок",
-    "description": "The title of the popup"
+    "message": "Закрытие всех вкладок",
+    "description": "Заголовок всплывающего окна"
   },
   "popupDescription": {
-    "message": "Готовы начать заново? Нажмите ниже, чтобы мгновенно закрыть все открытые вкладки.",
-    "description": "The description in the popup"
+    "message": "Готовы начать с чистого листа? Нажмите ниже, чтобы мгновенно закрыть все открытые вкладки.",
+    "description": "Описание во всплывающем окне"
   },
   "popupWarning": {
-    "message": "Будьте осторожны! Нажатие кнопки ниже мгновенно закроет все ваши активные открытые вкладки.",
-    "description": "Warning message in the popup"
+    "message": "Пожалуйста, будьте осторожны! Нажатие ниже мгновенно закроет все ваши активные открытые вкладки.",
+    "description": "Предупреждающее сообщение во всплывающем окне"
   },
   "closeAllTabsButton": {
-    "message": "Закрыть Все Вкладки",
-    "description": "Text for the close all tabs button"
+    "message": "Закрыть все вкладки",
+    "description": "Текст для кнопки закрытия всех вкладок"
   },
   "optionsTitle": {
-    "message": "Настройки Закрытия Всех Вкладок",
-    "description": "The title of the options page"
+    "message": "Настройки закрытия всех вкладок",
+    "description": "Заголовок страницы настроек"
   },
   "optionsCaution": {
-    "message": "Внимание: Эти действия повлияют на работу расширения.",
-    "description": "Caution message in the options page"
+    "message": "Внимание: Эти действия повлияют на поведение расширения.",
+    "description": "Предупреждение на странице настроек"
   },
   "optionNewTab": {
     "message": "Открыть новую вкладку после закрытия, кроме закрепленных",
-    "description": "Option to open new tab after closing"
+    "description": "Опция открытия новой вкладки после закрытия"
   },
   "optionCloseAll": {
     "message": "Закрыть все вкладки (включая браузер)",
-    "description": "Option to close all tabs including browser"
+    "description": "Опция закрытия всех вкладок, включая браузер"
   },
   "optionCloseAllExceptBrowser": {
     "message": "Закрыть все вкладки (включая закрепленные) без закрытия браузера",
-    "description": "Option to close all tabs except browser"
+    "description": "Опция закрытия всех вкладок, кроме браузера"
   },
   "optionCloseExceptCurrentPinned": {
     "message": "Закрыть все вкладки, кроме текущей и закрепленных",
-    "description": "Option to close all tabs except current and pinned"
+    "description": "Опция закрытия всех вкладок, кроме текущей и закрепленных"
   },
   "optionCloseExceptCurrent": {
     "message": "Закрыть все вкладки, кроме текущей",
-    "description": "Option to close all tabs except current"
+    "description": "Опция закрытия всех вкладок, кроме текущей"
   },
   "optionCloseOtherWindows": {
     "message": "Закрыть все вкладки в других окнах",
-    "description": "Option to close all tabs in other windows"
+    "description": "Опция закрытия всех вкладок в других окнах"
   },
   "optionCloseExceptCurrentPinnedGroup": {
     "message": "Закрыть все вкладки, кроме текущей, закрепленных и групповых",
-    "description": "Option to close all tabs except current, pinned, and group tabs"
+    "description": "Опция закрытия всех вкладок, кроме текущей, закрепленных и групповых"
   },
   "optionCloseAllClearHistory": {
     "message": "Закрыть все вкладки и очистить историю поиска",
-    "description": "Option to close all tabs and clear search history"
+    "description": "Опция закрытия всех вкладок и очистки истории поиска"
+  },
+  "currentwin": {
+    "message": "Закрыть другие вкладки в текущем окне (оставить активную, закрепленные и сгруппированные)",
+    "description": "Опция закрытия всех вкладок в текущем окне"
   },
   "saveButton": {
     "message": "Сохранить",
-    "description": "Text for the save button"
+    "description": "Текст для кнопки сохранения"
   },
   "saveExitButton": {
-    "message": "Сохранить и Выйти",
-    "description": "Text for the save and exit button"
+    "message": "Сохранить и выйти",
+    "description": "Текст для кнопки сохранения и выхода"
+  },
+  "quickexecution": {
+    "message": "Выполнить",
+    "description": "Выполнить"
   },
   "executeButton": {
-    "message": "Выполнить и Сохранить",
-    "description": "Text for the execute and save button"
+    "message": "Выполнить и сохранить",
+    "description": "Текст для кнопки выполнения и сохранения"
   },
   "saveExecuteExitButton": {
-    "message": "Сохранить, Выполнить, Выйти",
-    "description": "Text for the save, execute, and exit button"
+    "message": "Сохранить, выполнить, выйти",
+    "description": "Текст для кнопки сохранения, выполнения и выхода"
   },
   "settingsSaved": {
     "message": "Настройки сохранены.",
-    "description": "Message shown when settings are saved"
+    "description": "Сообщение, отображаемое при сохранении настроек"
   },
   "executingTabClosure": {
     "message": "Выполняется закрытие вкладок...",
-    "description": "Message shown when executing tab closure"
+    "description": "Сообщение, отображаемое при выполнении закрытия вкладок"
   },
   "tabClosureFailure": {
-    "message": "Не удалось начать закрытие вкладок.",
-    "description": "Message shown when tab closure fails"
+    "message": "Не удалось инициировать закрытие вкладок.",
+    "description": "Сообщение, отображаемое при неудачном закрытии вкладок"
   },
-  "currentwin": {
-    "message": "Закрыть другие вкладки в текущем окне (оставить активными, закрепленными и сгруппированными)",
-    "description": "Option to close all tabs in current windows"
+  "shortcutCloseTabs": {
+    "message": "Закрыть вкладки (Ctrl+X)",
+    "description": "Описание ярлыка для закрытия вкладок"
   },
-  "quickexecution": {
-    "message": "Выполнять ",
-    "description": "Execute"
+  "shortcutOpenSettings": {
+    "message": "Открыть настройки (Ctrl+Q)",
+    "description": "Описание ярлыка для открытия настроек"
   }
 }
