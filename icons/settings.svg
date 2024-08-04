@@ -1,0 +1,46 @@
+<!--
+Copyright (c) 2024 Subham Mahesh
+This work © 2024 by Subham Mahesh is licensed under Creative Commons Attribution 4.0 International.
+ To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+-->
+ <svg width="18" height="18" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <style>
+ :root {
+      --gear-color: #1D4ED8;
+      --gear-center: #F3F4F6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --gear-color: #ffffff;
+        --gear-center: #111827;
+      }
+    }
+    .gear {
+      fill: var(--gear-color);
+    }
+    .gear-center {
+      fill: var(--gear-center);
+    }
+    #settings-button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 14px;
+      height: 14px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+    }
+    #settings-button img {
+      width: 100%;
+      height: 100%;
+      max-width: 14px;
+      max-height: 14px;
+    }
+</style>
+ <g class="gear rotate">
+                    <path d="M28.1 0C26.7 0 25.6 1.1 25.6 2.5V7.8C23.2 8.3 20.9 9.2 18.8 10.4L15.1 6.7C14.1 5.7 12.5 5.7 11.6 6.7L6.7 11.6C5.7 12.6 5.7 14.2 6.7 15.1L10.4 18.8C9.2 20.9 8.3 23.2 7.8 25.6H2.5C1.1 25.6 0 26.7 0 28.1V35.1C0 36.5 1.1 37.6 2.5 37.6H7.8C8.3 40 9.2 42.3 10.4 44.4L6.7 48.1C5.7 49.1 5.7 50.7 6.7 51.6L11.6 56.5C12.6 57.5 14.2 57.5 15.1 56.5L18.8 52.8C20.9 54 23.2 54.9 25.6 55.4V60.7C25.6 62.1 26.7 63.2 28.1 63.2H35.1C36.5 63.2 37.6 62.1 37.6 60.7V55.4C40 54.9 42.3 54 44.4 52.8L48.1 56.5C49.1 57.5 50.7 57.5 51.6 56.5L56.5 51.6C57.5 50.6 57.5 49 56.5 48.1L52.8 44.4C54 42.3 54.9 40 55.4 37.6H60.7C62.1 37.6 63.2 36.5 63.2 35.1V28.1C63.2 26.7 62.1 25.6 60.7 25.6H55.4C54.9 23.2 54 20.9 52.8 18.8L56.5 15.1C57.5 14.1 57.5 12.5 56.5 11.6L51.6 6.7C50.6 5.7 49 5.7 48.1 6.7L44.4 10.4C42.3 9.2 40 8.3 37.6 7.8V2.5C37.6 1.1 36.5 0 35.1 0H28.1Z" class="gear"/>
+                    <circle cx="31.6" cy="31.6" r="12" class="gear-center"/>
+                </g>
+            </svg>
